@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/Liyfez/PosSol?style=flat-square&color=089981" alt="License" />
-  <img src="https://img.shields.io/badge/Made%20for-GitHub%20Profiles-1c1e21?style=flat-square&logo=github" alt="GitHub Profiles" />
-  <img src="https://img.shields.io/badge/Powered%20by-Vercel-black?style=flat-square&logo=vercel" alt="Vercel" />
+  <a href="https://github.com/liyfez">
+    <img src="passets/liyfezjs2.png" width="30%" alt="Liyfez GitHub Profile" />
+  </a>
 </p>
 
 ---
@@ -23,7 +23,6 @@
   ### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
   
   <p align="center">
-    <img src="https://pos-sol.vercel.app/api/chart?symbol=KSPI&period=6m" width="48%">
     <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y" width="48%">
   </p>
   ```
@@ -34,13 +33,13 @@
 
 ---
 
-## 🌟 Showcasing Examples
+# Showcasing Examples
 
 Here is how different timelines look when rendered:
 
-### Kaspi.kz (Last 30 Days)
+### Nvidia (Last 30 Days)
 <p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=KSPI&period=30d" width="100%">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d" width="100%">
 </p>
 
 ### Bitcoin (Last 6 Months)
