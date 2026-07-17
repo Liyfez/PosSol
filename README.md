@@ -33,7 +33,7 @@
 
 ---
 
-# Showcasing Examples
+## Showcasing Examples
 
 Here is how different timelines look when rendered:
 
