@@ -114,7 +114,7 @@ function generateSVG(symbol, values, metaData, periodLabel) {
   // Header Formatting
   const nameLabel = metaData.longName || symbol.toUpperCase();
   const exchangeLabel = metaData.exchange || 'MARKET';
-  const headerLine1 = `${nameLabel} · 1D · ${exchangeLabel}`;
+  const headerLine1 = `${nameLabel} · ${exchangeLabel}`;
   
   // OHLC format: O92.85 H94.79 L91.00 C93.16 +0.31 (+0.33%) Vol385.67K
   const openStr = lastV.open.toFixed(2);
