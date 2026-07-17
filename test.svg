@@ -1,0 +1,23 @@
+
+    <svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+      <rect width="600" height="300" fill="#0d1117" rx="8" />
+      
+      <!-- Line Chart -->
+      <path d="M 20,280 L 113.33333333333333,198.17367887488808 L 206.66666666666666,120 L 300,193.0595338045686 L 393.3333333333333,155.06826408218865 L 486.6666666666667,138.99507746118232 L 580,280" fill="none" stroke="#4caf50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      
+      <!-- Text Overlay -->
+      <g fill="#c9d1d9" font-family="Courier New, monospace">
+        <!-- Symbol & Price -->
+        <text x="20" y="40" font-size="24" font-weight="bold">KSPI  $87.48</text>
+        
+        <!-- Change % -->
+        <text x="20" y="70" font-size="16" fill="#4caf50">7d change: +0.00%</text>
+        
+        <!-- Volume -->
+        <text x="20" y="95" font-size="14" fill="#8b949e">Vol: 548.4k | Avg Vol: 273.4k</text>
+      </g>
+      
+      <!-- Data Source -->
+      <text x="500" y="290" font-family="sans-serif" font-size="10" fill="#8b949e">src: YahooFinance</text>
+    </svg>
+  
