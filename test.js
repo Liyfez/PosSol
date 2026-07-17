@@ -4,7 +4,7 @@ import handler from './api/chart.js';
 process.env.TWELVE_DATA_KEY = 'invalid_key_to_force_fallback';
 
 const req = {
-  query: { symbol: 'KSPI', days: '7' }
+  query: { symbol: 'KSPI', period: '6m' }
 };
 
 const res = {
