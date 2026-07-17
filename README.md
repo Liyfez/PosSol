@@ -1,51 +1,54 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="PosSol Logo" width="120"/>
+  <img src="assets/logo.svg" alt="PosSol Logo" width="120" />
 </p>
 
-<h1 align="center">☀️ PosSol</h1>
+<h1 align="center">PosSol</h1>
 
 <p align="center">
-  <strong>A serverless charting service that generates beautiful, dark-themed stock and crypto candlestick charts for GitHub profiles.</strong>
+  <strong>Serverless, Auto-Updating Stock & Crypto Charts for your GitHub Profile</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Vercel-Serverless-black?style=for-the-badge&logo=vercel" alt="Vercel">
-  <img src="https://img.shields.io/badge/Chart-SVG-blue?style=for-the-badge" alt="SVG">
-  <img src="https://img.shields.io/badge/License-Custom-red?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/license/Liyfez/PosSol?style=flat-square&color=089981" alt="License" />
+  <img src="https://img.shields.io/badge/Made%20for-GitHub%20Profiles-1c1e21?style=flat-square&logo=github" alt="GitHub Profiles" />
+  <img src="https://img.shields.io/badge/Powered%20by-Vercel-black?style=flat-square&logo=vercel" alt="Vercel" />
 </p>
 
 ---
+
+**PosSol** (positive sun) is a serverless charting service that generates beautiful, dark-themed, professional candlestick charts for stocks and crypto. It turns any trading symbol into a sleek, auto-updating SVG image that you can embed directly into your GitHub `README.md`.
 
 ## ✨ Features
-- **Zero Dependencies**: Pure, manual SVG generation without heavy canvas libraries. Sub-millisecond rendering!
-- **Serverless & Edge Cached**: Built for Vercel. Cached heavily at the edge (`s-maxage=300`) to guarantee high performance and avoid API rate limits.
-- **Auto-updating**: Every time a user visits your profile after the cache expires, they see the latest real-time data.
-- **Dual Data Sources**: Uses **Twelve Data** as the primary high-quality data provider. Automatically falls back to **Yahoo Finance** with smart symbol mapping.
-- **Pro Aesthetics**: Features a sleek, dark TradingView-like aesthetic with accurate candlestick drawing, grids, and dynamic OHLC headers.
+- **Zero Dependencies**: Generates 100% native SVGs on the fly. Ultra-fast, infinitely scalable, and no heavy `canvas` binaries!
+- **Professional Aesthetics**: Matches the iconic TradingView dark theme with accurate candlesticks, wicks, grids, OHLC data, and volume tracking.
+- **Auto-updating**: Cached heavily at the Vercel edge (`s-maxage=300`). Every time a user visits your profile, they see the latest data without hitting API limits.
+- **Dual Data Sources**: Uses **Twelve Data** as the primary high-quality provider, and intelligently falls back to **Yahoo Finance** if needed.
+- **Smart Symbol Mapping**: Automatically maps Kazkah and International stocks (e.g. `KSPI`, `HSBK`, `ASML`) to their correct Yahoo Finance equivalents to ensure 100% uptime.
 
 ---
 
-## 🚀 Embed in your Profile
+## 🚀 How to use in your GitHub Profile
 
-You can embed PosSol directly into your GitHub `README.md` to show off your favorite stocks or crypto. 
+You can embed PosSol directly into your GitHub `README.md`. Just copy the markdown below!
 
-Copy the code below:
+```markdown
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="24" style="vertical-align: middle;" /> PosSol Stock View
 
-```html
-<h3><img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="24" align="top"/> PosSol Stock View</h3>
-
-<!-- 
-  HOW TO CUSTOMIZE YOUR CHART:
-  1. Change "symbol=KSPI" to any stock or crypto (e.g., symbol=AAPL, symbol=BTC/USD)
-  2. Change "period=6m" to your preferred timeline (e.g., period=30d, period=1y, period=7d)
--->
 <p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=KSPI&period=6m" alt="Kaspi.kz Chart" />
+  <!-- Change `symbol=KSPI` to any stock/crypto you want (e.g., AAPL, TSLA, BTC/USD) -->
+  <!-- Change `period=6m` to change the timeline (e.g., 7d, 30d, 6m, 1y) -->
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=KSPI&period=6m" width="48%">
+  
+  <!-- Example: Apple stock over the last 1 year -->
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y" width="48%">
 </p>
 
 <p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y" alt="Apple Chart" width="48%" />
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=BTC/USD&period=30d" alt="Bitcoin Chart" width="48%" />
+  <!-- Example: Bitcoin over the last 30 days -->
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=BTC/USD&period=30d" width="48%">
+  
+  <!-- Example: Tesla stock over the last 6 months -->
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=TSLA&period=6m" width="48%">
 </p>
 ```
 
@@ -53,7 +56,7 @@ Copy the code below:
 
 ## 🛠 Deployment & Setup
 
-If you want to host your own instance of PosSol:
+Want to host your own instance? It's incredibly easy and 100% free.
 
 1. **Clone the Repo:**
    ```bash
@@ -66,8 +69,7 @@ If you want to host your own instance of PosSol:
    Sign up for a free account at [Twelve Data](https://twelvedata.com/) and copy your API key.
 
 3. **Deploy to Vercel:**
-   - Push this repo to GitHub.
-   - Import it into Vercel.
+   - Import this repo into Vercel.
    - Set the `TWELVE_DATA_KEY` environment variable in Vercel to your API key.
    - Deploy!
 
@@ -81,7 +83,5 @@ npx vercel dev
 
 Then visit `http://localhost:3000/api/chart?symbol=AAPL&period=30d`.
 
----
-
 ## 📜 License
-This project is protected under a custom proprietary license. You are free to use it for your personal GitHub profiles, but you may not claim ownership, clone it as your own original work, or use it commercially. See the `LICENSE` file for details.
+This project is licensed under the **GNU General Public License v3.0**. You are free to use it, but you may not claim it as your own work. See the `LICENSE` file for details.

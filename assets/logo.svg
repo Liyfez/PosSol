@@ -1,23 +1,7 @@
-<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2a2e39"/>
-      <stop offset="100%" stop-color="#131722"/>
-    </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.3" />
-    </filter>
-  </defs>
-
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
   <!-- Rounded Square Background -->
-  <rect x="16" y="16" width="224" height="224" rx="48" ry="48" fill="url(#bgGrad)" filter="url(#shadow)" />
+  <rect width="200" height="200" fill="#1c1e21" rx="45" ry="45" />
   
-  <!-- Subtle border to make it pop -->
-  <rect x="16" y="16" width="224" height="224" rx="48" ry="48" fill="none" stroke="#3e4351" stroke-width="2"/>
-
-  <!-- Text "PS" -->
-  <text x="128" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="110" font-weight="900" fill="#e2e8f0" text-anchor="middle" letter-spacing="-4">PS</text>
-  
-  <!-- Subtle design accent: A small green/red dot to represent markets -->
-  <circle cx="178" cy="168" r="8" fill="#089981" />
+  <!-- Text 'PS' -->
+  <text x="100" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="90" font-weight="900" fill="#e6e8eb" text-anchor="middle" letter-spacing="-5">PS</text>
 </svg>
