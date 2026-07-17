@@ -29,7 +29,7 @@
 
 - To use another stock or crypto: change the value of `symbol=` (example: `symbol=AAPL`)
 - To change the timeline: change the value of `period=` (example: `period=30d`, `6m`, `1y`)
-- Works perfectly out of the box with Kazkah stocks (e.g. `KSPI`, `HSBK`, `KAP`), Global stocks (e.g. `TSLA`, `MSFT`), and Crypto (e.g. `BTC/USD`, `ETH/USD`).
+- Works perfectly out of the box with any stocks and crypto, Global stocks (e.g. `TSLA`, `MSFT`), and Crypto (e.g. `BTC/USD`, `ETH/USD`).
 
 ---
 
