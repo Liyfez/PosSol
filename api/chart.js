@@ -144,12 +144,7 @@ function generateSVG(symbol, values, metaData, periodLabel) {
   `;
 
   return `
-    <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
-      <!-- Font Defs -->
-      <style>
-        .trader-font { font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif; }
-      </style>
-      
+    <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
       <!-- Border around chart area -->
       <rect x="${pad.left}" y="${pad.top}" width="${chartW}" height="${chartH}" fill="none" stroke="${colors.grid}" stroke-width="1"/>
       
@@ -163,7 +158,7 @@ function generateSVG(symbol, values, metaData, periodLabel) {
       ${currentLineHtml}
       
       <!-- Headers -->
-      <g class="trader-font">
+      <g>
         <text x="${pad.left}" y="24" font-size="18" font-weight="bold" fill="${colors.text}">${headerLine1}</text>
         <text x="${pad.left}" y="44" font-size="13">${ohlcText}</text>
       </g>
