@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/liyfez">
-    <img src="passets/liyfezjs2.png" width="30%" alt="Liyfez GitHub Profile" />
+    <img src="possol/assets/liyfezjs2.png" width="30%" alt="Liyfez GitHub Profile" />
   </a>
 </p>
 
