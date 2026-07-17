@@ -73,7 +73,7 @@ function generateSVG(symbol, values, metaData, periodLabel) {
     const val = chartMinY + (i / yTicks) * range;
     const y = mapY(val);
     gridHtml += `<line x1="${pad.left}" y1="${y}" x2="${width - pad.right}" y2="${y}" stroke="${colors.grid}" stroke-width="1" stroke-dasharray="2,2"/>`;
-    gridHtml += `<text x="${width - pad.right + 8}" y="${y + 4}" fill="${colors.textMuted}" font-size="11">${val.toFixed(2)}</text>`;
+    gridHtml += `<text x="${width - pad.right + 8}" y="${y + 4}" fill="${colors.textMuted}" font-size="11" class="num">${val.toFixed(2)}</text>`;
   }
 
   // X-axis grid lines & labels (Time)
@@ -84,7 +84,7 @@ function generateSVG(symbol, values, metaData, periodLabel) {
       const x = mapX(idx);
       const v = values[idx];
       gridHtml += `<line x1="${x}" y1="${pad.top}" x2="${x}" y2="${height - pad.bottom}" stroke="${colors.grid}" stroke-width="1" stroke-dasharray="2,2"/>`;
-      gridHtml += `<text x="${x}" y="${height - pad.bottom + 18}" fill="${colors.textMuted}" font-size="11" text-anchor="middle">${formatDate(v.date)}</text>`;
+      gridHtml += `<text x="${x}" y="${height - pad.bottom + 18}" fill="${colors.textMuted}" font-size="11" text-anchor="middle" class="num">${formatDate(v.date)}</text>`;
     }
   }
 
@@ -133,18 +133,22 @@ function generateSVG(symbol, values, metaData, periodLabel) {
   const daySign = dayChangeVal >= 0 ? '+' : '';
   const dayColor = dayChangeVal >= 0 ? colors.bull : colors.bear;
   
-  const ohlcText = `<tspan fill="${colors.textMuted}">O</tspan><tspan fill="${colors.text}">${openStr}</tspan>  <tspan fill="${colors.textMuted}">H</tspan><tspan fill="${colors.text}">${highStr}</tspan>  <tspan fill="${colors.textMuted}">L</tspan><tspan fill="${colors.text}">${lowStr}</tspan>  <tspan fill="${colors.textMuted}">C</tspan><tspan fill="${colors.text}">${closeStr}</tspan>  <tspan fill="${dayColor}">${daySign}${dayChangeVal.toFixed(2)} (${daySign}${dayChangePct.toFixed(2)}%)</tspan>  <tspan fill="${colors.textMuted}">Vol</tspan><tspan fill="${colors.text}">${formatVolume(lastV.volume)}</tspan>`;
+  const ohlcText = `<tspan fill="${colors.textMuted}">O</tspan> <tspan fill="${colors.text}" class="num">${openStr}</tspan>   <tspan fill="${colors.textMuted}">H</tspan> <tspan fill="${colors.text}" class="num">${highStr}</tspan>   <tspan fill="${colors.textMuted}">L</tspan> <tspan fill="${colors.text}" class="num">${lowStr}</tspan>   <tspan fill="${colors.textMuted}">C</tspan> <tspan fill="${colors.text}" class="num">${closeStr}</tspan>   <tspan fill="${dayColor}" class="num">${daySign}${dayChangeVal.toFixed(2)} (${daySign}${dayChangePct.toFixed(2)}%)</tspan>   <tspan fill="${colors.textMuted}">Vol</tspan> <tspan fill="${colors.text}" class="num">${formatVolume(lastV.volume)}</tspan>`;
 
   // Draw current price line
   const currentY = mapY(lastV.close);
   const currentLineHtml = `
     <line x1="${pad.left}" y1="${currentY}" x2="${width - pad.right}" y2="${currentY}" stroke="${dayColor}" stroke-width="1" stroke-dasharray="4,4"/>
     <rect x="${width - pad.right}" y="${currentY - 10}" width="60" height="20" fill="${dayColor}" rx="3"/>
-    <text x="${width - pad.right + 5}" y="${currentY + 4}" fill="#ffffff" font-size="11" font-weight="bold">${lastV.close.toFixed(2)}</text>
+    <text x="${width - pad.right + 5}" y="${currentY + 4}" fill="#ffffff" font-size="11" font-weight="bold" class="num">${lastV.close.toFixed(2)}</text>
   `;
 
   return `
     <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <style>
+        .num { font-family: "SF Mono", "Roboto Mono", Consolas, Menlo, Monaco, "Courier New", monospace; font-variant-numeric: tabular-nums; }
+      </style>
+      
       <!-- Border around chart area -->
       <rect x="${pad.left}" y="${pad.top}" width="${chartW}" height="${chartH}" fill="none" stroke="${colors.grid}" stroke-width="1"/>
       
