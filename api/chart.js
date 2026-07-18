@@ -31,9 +31,12 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     dark: { bull: '#089981', bear: '#f23645', grid: '#2a2e39', text: '#d1d4dc', textMuted: '#787b86' },
     monochrome: { bull: '#ffffff', bear: '#555555', grid: '#333333', text: '#ffffff', textMuted: '#a3a3a3' },
     abyss: { bull: '#00f2fe', bear: '#4facfe', grid: '#162e45', text: '#e0f7fa', textMuted: '#80deea' },
-    aurora: { bull: '#a8ff78', bear: '#b01eff', grid: '#243b35', text: '#f0fdf4', textMuted: '#bbf7d0' },
+    evangelion: { bull: '#a8ff78', bear: '#b01eff', grid: '#243b35', text: '#f0fdf4', textMuted: '#bbf7d0' },
     nebula: { bull: '#ff7eb3', bear: '#654ea3', grid: '#3b2354', text: '#fce7f3', textMuted: '#fbcfe8' },
-    sakura: { bull: '#d65b64', bear: '#ffb7b2', grid: '#fce3eb', text: '#59323c', textMuted: '#8a5a66' }
+    sakura: { bull: '#ffb7b2', bear: '#d65b64', grid: 'transparent', text: '#fce3eb', textMuted: '#e2848b' },
+    dracula: { bull: '#50fa7b', bear: '#ff79c6', grid: '#44475a', text: '#f8f8f2', textMuted: '#6272a4' },
+    matrix: { bull: '#00ff41', bear: '#008f11', grid: '#003b00', text: '#00ff41', textMuted: '#008f11' },
+    outrun: { bull: '#00ffff', bear: '#ff00ff', grid: '#240046', text: '#ff9e00', textMuted: '#c77dff' }
   };
   
   const colors = themes[themeName] || themes.dark;
@@ -135,10 +138,11 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     const ohlcText = `<tspan fill="${colors.textMuted}">O</tspan> <tspan fill="${colors.text}" class="num">${openStr}</tspan>   <tspan fill="${colors.textMuted}">H</tspan> <tspan fill="${colors.text}" class="num">${highStr}</tspan>   <tspan fill="${colors.textMuted}">L</tspan> <tspan fill="${colors.text}" class="num">${lowStr}</tspan>   <tspan fill="${colors.textMuted}">C</tspan> <tspan fill="${colors.text}" class="num">${closeStr}</tspan>   <tspan fill="${dayColor}" class="num">${daySign}${dayChangeVal.toFixed(2)} (${daySign}${dayChangePct.toFixed(2)}%)</tspan>   <tspan fill="${colors.textMuted}">Vol</tspan> <tspan fill="${colors.text}" class="num">${formatVolume(lastV.volume)}</tspan>`;
 
     const currentY = mapY(lastV.close);
+    const priceTextColor = (dayColor === '#ffffff' || dayColor === '#a8ff78' || dayColor === '#50fa7b' || dayColor === '#00ff41' || dayColor === '#00ffff') ? '#000000' : '#ffffff';
     const currentLineHtml = `
       <line x1="${pad.left}" y1="${currentY}" x2="${width - pad.right}" y2="${currentY}" stroke="${dayColor}" stroke-width="1" stroke-dasharray="4,4"/>
       <rect x="${width - pad.right}" y="${currentY - 10}" width="60" height="20" fill="${dayColor}" rx="3"/>
-      <text x="${width - pad.right + 5}" y="${currentY + 4}" fill="${colors.bg === 'transparent' ? '#ffffff' : colors.bg || '#ffffff'}" font-size="11" font-weight="bold" class="num">${lastV.close.toFixed(2)}</text>
+      <text x="${width - pad.right + 5}" y="${currentY + 4}" fill="${priceTextColor}" font-size="11" font-weight="bold" class="num">${lastV.close.toFixed(2)}</text>
     `;
     
     headerHtml = `

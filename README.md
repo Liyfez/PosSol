@@ -56,8 +56,8 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
   </tr>
   <tr>
     <td align="center">
-      <b>Aurora</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=aurora" width="260">
+      <b>Evangelion</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=evangelion" width="260">
     </td>
     <td align="center">
       <b>Nebula</b><br>
@@ -66,6 +66,20 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
     <td align="center">
       <b>Sakura</b><br>
       <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=sakura" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Dracula</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=dracula" width="260">
+    </td>
+    <td align="center">
+      <b>Matrix</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=matrix" width="260">
+    </td>
+    <td align="center">
+      <b>Outrun</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=outrun" width="260">
     </td>
   </tr>
 </table>
