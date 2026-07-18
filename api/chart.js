@@ -29,14 +29,14 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
   
   const themes = {
     dark: { bull: '#089981', bear: '#f23645', grid: '#2a2e39', text: '#d1d4dc', textMuted: '#787b86' },
-    monochrome: { bull: '#ffffff', bear: '#888888', grid: '#333333', text: '#ffffff', textMuted: '#aaaaaa' },
-    abyss: { bull: '#00f2fe', bear: '#3399ff', grid: '#162e45', text: '#ffffff', textMuted: '#00f2fe' },
-    evangelion: { bull: '#a8ff78', bear: '#d87bff', grid: '#243b35', text: '#ffffff', textMuted: '#a8ff78' },
-    nebula: { bull: '#ff7eb3', bear: '#b388ff', grid: '#3b2354', text: '#ffffff', textMuted: '#ff7eb3' },
-    sakura: { bull: '#ff9eb5', bear: '#ff0055', grid: 'transparent', text: '#ffffff', textMuted: '#ffb3c6' },
-    dracula: { bull: '#50fa7b', bear: '#ff79c6', grid: '#44475a', text: '#ffffff', textMuted: '#8be9fd' },
-    matrix: { bull: '#00ff41', bear: '#80ff9f', grid: '#003b00', text: '#ffffff', textMuted: '#00ff41' },
-    akatsuki: { bull: '#ff0000', bear: '#ffffff', grid: '#330000', text: '#ffffff', textMuted: '#ff8080' }
+    monochrome: { bull: '#ffffff', bear: '#555555', grid: '#333333', text: '#ffffff', textMuted: '#a3a3a3' },
+    abyss: { bull: '#00f2fe', bear: '#4facfe', grid: '#162e45', text: '#e0f7fa', textMuted: '#80deea' },
+    evangelion: { bull: '#a8ff78', bear: '#b01eff', grid: '#243b35', text: '#f0fdf4', textMuted: '#bbf7d0' },
+    nebula: { bull: '#ff7eb3', bear: '#654ea3', grid: '#3b2354', text: '#fce7f3', textMuted: '#fbcfe8' },
+    sakura: { bull: '#ffb7b2', bear: '#d65b64', grid: 'transparent', text: '#fce3eb', textMuted: '#ff9a9e' },
+    dracula: { bull: '#50fa7b', bear: '#ff79c6', grid: '#44475a', text: '#f8f8f2', textMuted: '#8be9fd' },
+    matrix: { bull: '#00ff41', bear: '#008f11', grid: '#003b00', text: '#00ff41', textMuted: '#33ff66' },
+    jujutsu: { bull: '#00f2fe', bear: '#ff007f', grid: '#1a1a2e', text: '#ffffff', textMuted: '#cccccc' }
   };
   
   const colors = themes[themeName] || themes.dark;
@@ -72,8 +72,10 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     for (let i = 0; i <= yTicks; i++) {
       const val = chartMinY + (i / yTicks) * range;
       const y = mapY(val);
-      gridHtml += `<line x1="${pad.left}" y1="${y}" x2="${width - pad.right}" y2="${y}" stroke="${colors.grid}" stroke-width="1" stroke-dasharray="2,2"/>`;
-      gridHtml += `<text x="${width - pad.right + 8}" y="${y + 4}" fill="${colors.textMuted}" font-size="11" class="num">${val.toFixed(2)}</text>`;
+      if (colors.grid !== 'transparent') {
+        gridHtml += `<line x1="${pad.left}" y1="${y}" x2="${width - pad.right}" y2="${y}" stroke="${colors.grid}" stroke-width="1" stroke-dasharray="2,2"/>`;
+      }
+      gridHtml += `<text x="${width - pad.right + 8}" y="${y + 4}" fill="${colors.textMuted}" font-size="11" class="num shadow">${val.toFixed(2)}</text>`;
     }
 
     // X-axis grid lines & labels (Time)
@@ -83,8 +85,10 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
       if (idx >= 0 && idx < values.length) {
         const x = mapX(idx);
         const v = values[idx];
-        gridHtml += `<line x1="${x}" y1="${pad.top}" x2="${x}" y2="${height - pad.bottom}" stroke="${colors.grid}" stroke-width="1" stroke-dasharray="2,2"/>`;
-        gridHtml += `<text x="${x}" y="${height - pad.bottom + 18}" fill="${colors.textMuted}" font-size="11" text-anchor="middle" class="num">${formatDate(v.date)}</text>`;
+        if (colors.grid !== 'transparent') {
+          gridHtml += `<line x1="${x}" y1="${pad.top}" x2="${x}" y2="${height - pad.bottom}" stroke="${colors.grid}" stroke-width="1" stroke-dasharray="2,2"/>`;
+        }
+        gridHtml += `<text x="${x}" y="${height - pad.bottom + 18}" fill="${colors.textMuted}" font-size="11" text-anchor="middle" class="num shadow">${formatDate(v.date)}</text>`;
       }
     }
   }
@@ -137,14 +141,8 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     
     const ohlcText = `<tspan fill="${colors.textMuted}">O</tspan> <tspan fill="${colors.text}" class="num">${openStr}</tspan>   <tspan fill="${colors.textMuted}">H</tspan> <tspan fill="${colors.text}" class="num">${highStr}</tspan>   <tspan fill="${colors.textMuted}">L</tspan> <tspan fill="${colors.text}" class="num">${lowStr}</tspan>   <tspan fill="${colors.textMuted}">C</tspan> <tspan fill="${colors.text}" class="num">${closeStr}</tspan>   <tspan fill="${dayColor}" class="num">${daySign}${dayChangeVal.toFixed(2)} (${daySign}${dayChangePct.toFixed(2)}%)</tspan>   <tspan fill="${colors.textMuted}">Vol</tspan> <tspan fill="${colors.text}" class="num">${formatVolume(lastV.volume)}</tspan>`;
 
-    const getContrast = (hex) => {
-      const r = parseInt(hex.slice(1, 3), 16);
-      const g = parseInt(hex.slice(3, 5), 16);
-      const b = parseInt(hex.slice(5, 7), 16);
-      return (r * 0.299 + g * 0.587 + b * 0.114) > 150 ? '#000000' : '#ffffff';
-    };
-    const priceTextColor = getContrast(dayColor);
-    
+    const currentY = mapY(lastV.close);
+    const priceTextColor = (dayColor === '#ffffff' || dayColor === '#a8ff78' || dayColor === '#50fa7b' || dayColor === '#00ff41' || dayColor === '#00ffff') ? '#000000' : '#ffffff';
     const currentLineHtml = `
       <line x1="${pad.left}" y1="${currentY}" x2="${width - pad.right}" y2="${currentY}" stroke="${dayColor}" stroke-width="1" stroke-dasharray="4,4"/>
       <rect x="${width - pad.right}" y="${currentY - 10}" width="60" height="20" fill="${dayColor}" rx="3"/>
@@ -156,7 +154,7 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
       ${currentLineHtml}
       
       <!-- Headers -->
-      <g>
+      <g class="shadow">
         <text x="${pad.left}" y="24" font-size="18" font-weight="bold" fill="${colors.text}">${headerLine1}</text>
         <text x="${pad.left}" y="44" font-size="13">${ohlcText}</text>
       </g>
@@ -165,12 +163,18 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
 
   return `
     <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <defs>
+        <filter id="text-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000000" flood-opacity="0.8"/>
+        </filter>
+      </defs>
       <style>
         .num { font-family: "SF Mono", "Roboto Mono", Consolas, Menlo, Monaco, "Courier New", monospace; font-variant-numeric: tabular-nums; }
+        .shadow { filter: url(#text-shadow); }
       </style>
       
       <!-- Border around chart area -->
-      ${!isMini ? `<rect x="${pad.left}" y="${pad.top}" width="${chartW}" height="${chartH}" fill="none" stroke="${colors.grid}" stroke-width="1"/>` : ''}
+      ${(!isMini && colors.grid !== 'transparent') ? `<rect x="${pad.left}" y="${pad.top}" width="${chartW}" height="${chartH}" fill="none" stroke="${colors.grid}" stroke-width="1"/>` : ''}
       
       <!-- Grids -->
       ${gridHtml}

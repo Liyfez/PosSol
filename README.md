@@ -78,8 +78,8 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
       <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=matrix" width="260">
     </td>
     <td align="center">
-      <b>Akatsuki</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=akatsuki" width="260">
+      <b>Jujutsu</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=jujutsu" width="260">
     </td>
   </tr>
 </table>
