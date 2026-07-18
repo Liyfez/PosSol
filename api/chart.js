@@ -23,21 +23,20 @@ function formatDate(dateStr) {
 }
 
 // Advanced Candlestick SVG Chart Generator
-function generateSVG(symbol, values, metaData, periodLabel) {
+function generateSVG(symbol, values, metaData, periodLabel, themeName) {
   const width = 850;
   const height = 450;
   
-  // TradingView-like dark theme
-  const colors = {
-    bg: 'transparent',
-    bull: '#089981',
-    bear: '#f23645',
-    grid: '#2a2e39',
-    text: '#d1d4dc',
-    textMuted: '#787b86',
-    wickBull: '#089981',
-    wickBear: '#f23645'
+  const themes = {
+    dark: { bull: '#089981', bear: '#f23645', grid: '#2a2e39', text: '#d1d4dc', textMuted: '#787b86' },
+    light: { bull: '#089981', bear: '#f23645', grid: '#e0e3eb', text: '#131722', textMuted: '#787b86' },
+    monochrome: { bull: '#ffffff', bear: '#555555', grid: '#333333', text: '#ffffff', textMuted: '#a3a3a3' },
+    gray: { bull: '#aaaaaa', bear: '#444444', grid: '#2a2e39', text: '#cccccc', textMuted: '#777777' },
+    blue: { bull: '#00d2ff', bear: '#0055ff', grid: '#0f3460', text: '#eefbfb', textMuted: '#4da8da' },
+    cyberpunk: { bull: '#00ff9f', bear: '#ff003c', grid: '#241b2f', text: '#f2e8cf', textMuted: '#7a6c96' }
   };
+  
+  const colors = themes[themeName] || themes.dark;
 
   // Padding
   const pad = { top: 60, right: 70, bottom: 30, left: 20 };
@@ -98,7 +97,6 @@ function generateSVG(symbol, values, metaData, periodLabel) {
 
     const isBull = v.close >= v.open;
     const color = isBull ? colors.bull : colors.bear;
-    const wickColor = isBull ? colors.wickBull : colors.wickBear;
     
     // Y-coordinates for the body rectangle
     const topBodyY = Math.min(openY, closeY);
@@ -106,7 +104,7 @@ function generateSVG(symbol, values, metaData, periodLabel) {
     const bodyHeight = Math.max(1, Math.abs(closeY - openY));
 
     // Wick
-    candlesHtml += `<line x1="${xCenter}" y1="${highY}" x2="${xCenter}" y2="${lowY}" stroke="${wickColor}" stroke-width="1.5" />`;
+    candlesHtml += `<line x1="${xCenter}" y1="${highY}" x2="${xCenter}" y2="${lowY}" stroke="${color}" stroke-width="1.5" />`;
     // Body
     candlesHtml += `<rect x="${xCenter - candleWidth/2}" y="${topBodyY}" width="${candleWidth}" height="${bodyHeight}" fill="${color}" rx="1" />`;
   });
@@ -140,7 +138,7 @@ function generateSVG(symbol, values, metaData, periodLabel) {
   const currentLineHtml = `
     <line x1="${pad.left}" y1="${currentY}" x2="${width - pad.right}" y2="${currentY}" stroke="${dayColor}" stroke-width="1" stroke-dasharray="4,4"/>
     <rect x="${width - pad.right}" y="${currentY - 10}" width="60" height="20" fill="${dayColor}" rx="3"/>
-    <text x="${width - pad.right + 5}" y="${currentY + 4}" fill="#ffffff" font-size="11" font-weight="bold" class="num">${lastV.close.toFixed(2)}</text>
+    <text x="${width - pad.right + 5}" y="${currentY + 4}" fill="${colors.bg === 'transparent' ? '#ffffff' : colors.bg || '#ffffff'}" font-size="11" font-weight="bold" class="num">${lastV.close.toFixed(2)}</text>
   `;
 
   return `
@@ -171,7 +169,7 @@ function generateSVG(symbol, values, metaData, periodLabel) {
 }
 
 export default async function handler(req, res) {
-  const { symbol = 'KSPI', period = '30d' } = req.query;
+  const { symbol = 'KSPI', period = '30d', theme = 'dark' } = req.query;
   
   let numDays = 30;
   let periodLabel = period;
@@ -189,7 +187,7 @@ export default async function handler(req, res) {
     periodLabel = `${numDays}D`;
   }
   
-  const cacheKey = `${symbol.toUpperCase()}_${numDays}d`;
+  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}`;
 
   const cached = cache.get(cacheKey);
   if (cached && Date.now() - cached.timestamp < 5 * 60 * 1000) { 
@@ -269,7 +267,7 @@ export default async function handler(req, res) {
     return;
   }
 
-  const svgContent = generateSVG(symbol, values, metaData, periodLabel);
+  const svgContent = generateSVG(symbol, values, metaData, periodLabel, theme.toLowerCase());
 
   cache.set(cacheKey, { svg: svgContent, timestamp: Date.now() });
 

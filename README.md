@@ -23,28 +23,50 @@
   ### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
   
   <p align="center">
-    <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y" width="48%">
+    <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&theme=dark" width="48%">
   </p>
   ```
 
 - To use another stock or crypto: change the value of `symbol=` (example: `symbol=AAPL`)
 - To change the timeline: change the value of `period=` (example: `period=30d`, `6m`, `1y`)
+- To use another theme: change the value of `theme=` (example: `theme=cyberpunk`)
+- All available themes are shown below.
 - Works perfectly out of the box with any stocks and crypto, Global stocks (e.g. `TSLA`, `MSFT`), and Crypto (e.g. `BTC/USD`, `ETH/USD`).
 
 ---
 
-## Showcasing Examples
+## 🎨 Available Themes
 
-Here is how different timelines look when rendered:
+PosSol comes with 6 uniquely designed themes. To change the theme, just append `&theme={theme_name}` to your image URL!
 
-### Nvidia (Last 30 Days)
+### `dark` (Default)
 <p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d" width="100%">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=dark" width="100%">
 </p>
 
-### Bitcoin (Last 6 Months)
+### `light`
 <p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=BTC/USD&period=6m" width="100%">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=light" width="100%">
+</p>
+
+### `monochrome`
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=monochrome" width="100%">
+</p>
+
+### `gray`
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=gray" width="100%">
+</p>
+
+### `blue`
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=blue" width="100%">
+</p>
+
+### `cyberpunk`
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=cyberpunk" width="100%">
 </p>
 
 ---
