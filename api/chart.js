@@ -37,7 +37,10 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     sakura: { bull: '#ffb7b2', bear: '#d65b64', grid: 'transparent', text: '#fce3eb', textMuted: '#ff9a9e' },
     obsidian: { bull: '#eab308', bear: '#737373', grid: '#171717', text: '#ffffff', textMuted: '#a3a3a3' },
     matrix: { bull: '#00ff41', bear: '#008f11', grid: '#1a1a1a', text: '#ffffff', textMuted: '#888888' },
-    midnight: { bull: '#34d399', bear: '#f43f5e', grid: '#0f172a', text: '#f1f5f9', textMuted: '#64748b' }
+    midnight: { bull: '#34d399', bear: '#f43f5e', grid: '#0f172a', text: '#f1f5f9', textMuted: '#64748b' },
+    oceanic: { bull: '#0ea5e9', bear: '#fb923c', grid: '#082f49', text: '#e0f2fe', textMuted: '#7dd3fc' },
+    cyber: { bull: '#06b6d4', bear: '#d946ef', grid: '#2e1065', text: '#f3e8ff', textMuted: '#c084fc' },
+    emerald: { bull: '#10b981', bear: '#f59e0b', grid: '#064e3b', text: '#ecfdf5', textMuted: '#6ee7b7' }
   };
   
   const colors = themes[themeName] || themes.dark;
@@ -143,7 +146,7 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     : `<tspan fill="${colors.textMuted}">O</tspan> <tspan fill="${colors.text}" class="num">${openStr}</tspan>   <tspan fill="${colors.textMuted}">H</tspan> <tspan fill="${colors.text}" class="num">${highStr}</tspan>   <tspan fill="${colors.textMuted}">L</tspan> <tspan fill="${colors.text}" class="num">${lowStr}</tspan>   <tspan fill="${colors.textMuted}">C</tspan> <tspan fill="${colors.text}" class="num">${closeStr}</tspan>   <tspan fill="${dayColor}" class="num">${daySign}${dayChangeVal.toFixed(2)} (${daySign}${dayChangePct.toFixed(2)}%)</tspan>   <tspan fill="${colors.textMuted}">Vol</tspan> <tspan fill="${colors.text}" class="num">${formatVolume(lastV.volume)}</tspan>`;
 
   const currentY = mapY(lastV.close);
-  const priceTextColor = (dayColor === '#ffffff' || dayColor === '#a8ff78' || dayColor === '#00ff41' || dayColor === '#eab308' || dayColor === '#34d399') ? '#000000' : '#ffffff';
+  const priceTextColor = (dayColor === '#ffffff' || dayColor === '#a8ff78' || dayColor === '#00ff41' || dayColor === '#eab308' || dayColor === '#34d399' || dayColor === '#fb923c' || dayColor === '#f59e0b' || dayColor === '#06b6d4') ? '#000000' : '#ffffff';
   
   const currentLineHtml = `
     <line x1="${pad.left}" y1="${currentY}" x2="${width - pad.right}" y2="${currentY}" stroke="${dayColor}" stroke-width="1" stroke-dasharray="4,4"/>

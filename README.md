@@ -82,6 +82,20 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
       <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=midnight" width="260">
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <b>Oceanic</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=oceanic" width="260">
+    </td>
+    <td align="center">
+      <b>Cyber</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=cyber" width="260">
+    </td>
+    <td align="center">
+      <b>Emerald</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=emerald" width="260">
+    </td>
+  </tr>
 </table>
 
 ---
