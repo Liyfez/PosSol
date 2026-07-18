@@ -29,11 +29,11 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName) {
   
   const themes = {
     dark: { bull: '#089981', bear: '#f23645', grid: '#2a2e39', text: '#d1d4dc', textMuted: '#787b86' },
-    light: { bull: '#089981', bear: '#f23645', grid: '#e0e3eb', text: '#131722', textMuted: '#787b86' },
     monochrome: { bull: '#ffffff', bear: '#555555', grid: '#333333', text: '#ffffff', textMuted: '#a3a3a3' },
-    gray: { bull: '#aaaaaa', bear: '#444444', grid: '#2a2e39', text: '#cccccc', textMuted: '#777777' },
-    blue: { bull: '#00d2ff', bear: '#0055ff', grid: '#0f3460', text: '#eefbfb', textMuted: '#4da8da' },
-    cyberpunk: { bull: '#00ff9f', bear: '#ff003c', grid: '#241b2f', text: '#f2e8cf', textMuted: '#7a6c96' }
+    abyss: { bull: '#00f2fe', bear: '#4facfe', grid: '#162e45', text: '#e0f7fa', textMuted: '#80deea' },
+    aurora: { bull: '#a8ff78', bear: '#b01eff', grid: '#243b35', text: '#f0fdf4', textMuted: '#bbf7d0' },
+    nebula: { bull: '#ff7eb3', bear: '#654ea3', grid: '#3b2354', text: '#fce7f3', textMuted: '#fbcfe8' },
+    sakura: { bull: '#d65b64', bear: '#ffb7b2', grid: '#fce3eb', text: '#59323c', textMuted: '#8a5a66' }
   };
   
   const colors = themes[themeName] || themes.dark;

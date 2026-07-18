@@ -29,7 +29,7 @@
 
 - To use another stock or crypto: change the value of `symbol=` (example: `symbol=AAPL`)
 - To change the timeline: change the value of `period=` (example: `period=30d`, `6m`, `1y`)
-- To use another theme: change the value of `theme=` (example: `theme=cyberpunk`)
+- To use another theme: change the value of `theme=` (example: `theme=nebula`)
 - All available themes are shown below.
 - Works perfectly out of the box with any stocks and crypto, Global stocks (e.g. `TSLA`, `MSFT`), and Crypto (e.g. `BTC/USD`, `ETH/USD`).
 
@@ -37,37 +37,38 @@
 
 ## 🎨 Available Themes
 
-PosSol comes with 6 uniquely designed themes. To change the theme, just append `&theme={theme_name}` to your image URL!
+PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, just append `&theme={theme_name}` to your image URL!
 
-### `dark` (Default)
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=dark" width="100%">
-</p>
-
-### `light`
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=light" width="100%">
-</p>
-
-### `monochrome`
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=monochrome" width="100%">
-</p>
-
-### `gray`
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=gray" width="100%">
-</p>
-
-### `blue`
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=blue" width="100%">
-</p>
-
-### `cyberpunk`
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=cyberpunk" width="100%">
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>Dark</b> (Default)<br>
+      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=dark" width="260">
+    </td>
+    <td align="center">
+      <b>Monochrome</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=monochrome" width="260">
+    </td>
+    <td align="center">
+      <b>Abyss</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=abyss" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Aurora</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=aurora" width="260">
+    </td>
+    <td align="center">
+      <b>Nebula</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=nebula" width="260">
+    </td>
+    <td align="center">
+      <b>Sakura</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=sakura" width="260">
+    </td>
+  </tr>
+</table>
 
 ---
 
