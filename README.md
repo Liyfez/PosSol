@@ -70,16 +70,16 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
   </tr>
   <tr>
     <td align="center">
-      <b>Dracula</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=dracula" width="260">
+      <b>Obsidian</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=obsidian" width="260">
     </td>
     <td align="center">
       <b>Matrix</b><br>
       <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=matrix" width="260">
     </td>
     <td align="center">
-      <b>Jujutsu</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=jujutsu" width="260">
+      <b>Midnight</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=midnight" width="260">
     </td>
   </tr>
 </table>

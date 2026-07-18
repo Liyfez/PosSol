@@ -35,9 +35,9 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     evangelion: { bull: '#a8ff78', bear: '#b01eff', grid: '#243b35', text: '#f0fdf4', textMuted: '#bbf7d0' },
     nebula: { bull: '#ff7eb3', bear: '#654ea3', grid: '#3b2354', text: '#fce7f3', textMuted: '#fbcfe8' },
     sakura: { bull: '#ffb7b2', bear: '#d65b64', grid: 'transparent', text: '#fce3eb', textMuted: '#ff9a9e' },
-    dracula: { bull: '#50fa7b', bear: '#ff79c6', grid: '#44475a', text: '#f8f8f2', textMuted: '#8be9fd' },
-    matrix: { bull: '#00ff41', bear: '#008f11', grid: '#003b00', text: '#00ff41', textMuted: '#33ff66' },
-    jujutsu: { bull: '#00f2fe', bear: '#ff007f', grid: '#1a1a2e', text: '#ffffff', textMuted: '#cccccc' }
+    obsidian: { bull: '#eab308', bear: '#737373', grid: '#171717', text: '#ffffff', textMuted: '#a3a3a3' },
+    matrix: { bull: '#00ff41', bear: '#008f11', grid: '#1a1a1a', text: '#ffffff', textMuted: '#888888' },
+    midnight: { bull: '#34d399', bear: '#f43f5e', grid: '#0f172a', text: '#f1f5f9', textMuted: '#64748b' }
   };
   
   const colors = themes[themeName] || themes.dark;
@@ -143,7 +143,7 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     : `<tspan fill="${colors.textMuted}">O</tspan> <tspan fill="${colors.text}" class="num">${openStr}</tspan>   <tspan fill="${colors.textMuted}">H</tspan> <tspan fill="${colors.text}" class="num">${highStr}</tspan>   <tspan fill="${colors.textMuted}">L</tspan> <tspan fill="${colors.text}" class="num">${lowStr}</tspan>   <tspan fill="${colors.textMuted}">C</tspan> <tspan fill="${colors.text}" class="num">${closeStr}</tspan>   <tspan fill="${dayColor}" class="num">${daySign}${dayChangeVal.toFixed(2)} (${daySign}${dayChangePct.toFixed(2)}%)</tspan>   <tspan fill="${colors.textMuted}">Vol</tspan> <tspan fill="${colors.text}" class="num">${formatVolume(lastV.volume)}</tspan>`;
 
   const currentY = mapY(lastV.close);
-  const priceTextColor = (dayColor === '#ffffff' || dayColor === '#a8ff78' || dayColor === '#50fa7b' || dayColor === '#00ff41' || dayColor === '#00ffff') ? '#000000' : '#ffffff';
+  const priceTextColor = (dayColor === '#ffffff' || dayColor === '#a8ff78' || dayColor === '#00ff41' || dayColor === '#eab308' || dayColor === '#34d399') ? '#000000' : '#ffffff';
   
   const currentLineHtml = `
     <line x1="${pad.left}" y1="${currentY}" x2="${width - pad.right}" y2="${currentY}" stroke="${dayColor}" stroke-width="1" stroke-dasharray="4,4"/>
