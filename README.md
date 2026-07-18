@@ -23,7 +23,7 @@
   ### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
   
   <p align="center">
-    <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&theme=dark" width="48%">
+    <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&theme=dark" width="100%">
   </p>
   ```
 
