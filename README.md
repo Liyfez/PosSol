@@ -39,33 +39,35 @@
 
 PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, just append `&theme={theme_name}` to your image URL!
 
-<table align="center">
+<table align="center" width="100%">
   <tr>
-    <td align="center">
+    <td align="center" width="50%">
       <b>Dark</b> (Default)<br>
-      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=dark" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=dark" width="100%">
     </td>
-    <td align="center">
+    <td align="center" width="50%">
       <b>Monochrome</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=monochrome" width="260">
-    </td>
-    <td align="center">
-      <b>Abyss</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=abyss" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=monochrome" width="100%">
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td align="center" width="50%">
+      <b>Abyss</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=abyss" width="100%">
+    </td>
+    <td align="center" width="50%">
       <b>Aurora</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=aurora" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=aurora" width="100%">
     </td>
-    <td align="center">
+  </tr>
+  <tr>
+    <td align="center" width="50%">
       <b>Nebula</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=nebula" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=nebula" width="100%">
     </td>
-    <td align="center">
+    <td align="center" width="50%">
       <b>Sakura</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=sakura" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=sakura" width="100%">
     </td>
   </tr>
 </table>
