@@ -39,35 +39,33 @@
 
 PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, just append `&theme={theme_name}` to your image URL!
 
-<table align="center" width="100%">
+<table align="center">
   <tr>
-    <td align="center" width="50%">
+    <td align="center">
       <b>Dark</b> (Default)<br>
-      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=dark" width="100%">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=dark" width="260">
     </td>
-    <td align="center" width="50%">
+    <td align="center">
       <b>Monochrome</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=monochrome" width="100%">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=monochrome" width="260">
     </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
+    <td align="center">
       <b>Abyss</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=abyss" width="100%">
-    </td>
-    <td align="center" width="50%">
-      <b>Aurora</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=aurora" width="100%">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=abyss" width="260">
     </td>
   </tr>
   <tr>
-    <td align="center" width="50%">
-      <b>Nebula</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=nebula" width="100%">
+    <td align="center">
+      <b>Aurora</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=aurora" width="260">
     </td>
-    <td align="center" width="50%">
+    <td align="center">
+      <b>Nebula</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=nebula" width="260">
+    </td>
+    <td align="center">
       <b>Sakura</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?symbol=NVDA&period=30d&theme=sakura" width="100%">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&theme=sakura" width="260">
     </td>
   </tr>
 </table>
