@@ -42,674 +42,170 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
 <table align="center">
   <tr>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Dark</b> (Default)<br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=dark" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=dark" width="100%">
-</p>
-```
-
-      </details>
+      <b>Dark</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=dark" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Monochrome</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=monochrome" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=monochrome" width="100%">
-</p>
-```
-
-      </details>
+      <b>Monochrome</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=monochrome" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Abyss</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=abyss" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=abyss" width="100%">
-</p>
-```
-
-      </details>
+      <b>Abyss</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=abyss" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Evangelion</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=evangelion" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=evangelion" width="100%">
-</p>
-```
-
-      </details>
+      <b>Evangelion</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=evangelion" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Nebula</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=nebula" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=nebula" width="100%">
-</p>
-```
-
-      </details>
+      <b>Nebula</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=nebula" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Sakura</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=sakura" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=sakura" width="100%">
-</p>
-```
-
-      </details>
+      <b>Sakura</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=sakura" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Obsidian</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=obsidian" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=obsidian" width="100%">
-</p>
-```
-
-      </details>
+      <b>Obsidian</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=obsidian" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Matrix</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=matrix" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=matrix" width="100%">
-</p>
-```
-
-      </details>
+      <b>Matrix</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=matrix" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Midnight</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=midnight" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=midnight" width="100%">
-</p>
-```
-
-      </details>
+      <b>Midnight</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=midnight" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Oceanic</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=oceanic" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=oceanic" width="100%">
-</p>
-```
-
-      </details>
+      <b>Oceanic</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=oceanic" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Cyber</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=cyber" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=cyber" width="100%">
-</p>
-```
-
-      </details>
+      <b>Cyber</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=cyber" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Emerald</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=emerald" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=emerald" width="100%">
-</p>
-```
-
-      </details>
+      <b>Emerald</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=emerald" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Crimson</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=crimson" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=crimson" width="100%">
-</p>
-```
-
-      </details>
+      <b>Crimson</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=crimson" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Velvet</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=velvet" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=velvet" width="100%">
-</p>
-```
-
-      </details>
+      <b>Velvet</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=velvet" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Dune</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=dune" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=dune" width="100%">
-</p>
-```
-
-      </details>
+      <b>Dune</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=dune" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Apex</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=apex" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=apex" width="100%">
-</p>
-```
-
-      </details>
+      <b>Apex</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=apex" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Sapphire</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=sapphire" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=sapphire" width="100%">
-</p>
-```
-
-      </details>
+      <b>Sapphire</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=sapphire" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Frost</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=frost" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=frost" width="100%">
-</p>
-```
-
-      </details>
+      <b>Frost</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=frost" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Venom</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=2&theme=venom" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=venom" width="100%">
-</p>
-```
-
-      </details>
+      <b>Venom</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=2&theme=venom" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Forest</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=forest" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=forest" width="100%">
-</p>
-```
-
-      </details>
+      <b>Forest</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=forest" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Volt</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=2&theme=volt" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=volt" width="100%">
-</p>
-```
-
-      </details>
+      <b>Volt</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=2&theme=volt" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Coral</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=coral" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=coral" width="100%">
-</p>
-```
-
-      </details>
+      <b>Coral</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=coral" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Lavender</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=lavender" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=lavender" width="100%">
-</p>
-```
-
-      </details>
+      <b>Lavender</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=lavender" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Twilight</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=twilight" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=twilight" width="100%">
-</p>
-```
-
-      </details>
+      <b>Twilight</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=twilight" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Plasma</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=2&theme=plasma" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=plasma" width="100%">
-</p>
-```
-
-      </details>
+      <b>Plasma</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=2&theme=plasma" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Bubblegum</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=bubblegum" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=bubblegum" width="100%">
-</p>
-```
-
-      </details>
+      <b>Bubblegum</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=bubblegum" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Copperhead</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=copperhead" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=copperhead" width="100%">
-</p>
-```
-
-      </details>
+      <b>Copperhead</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=copperhead" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Flare</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=flare" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=flare" width="100%">
-</p>
-```
-
-      </details>
+      <b>Flare</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=flare" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Solar</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=solar" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=solar" width="100%">
-</p>
-```
-
-      </details>
+      <b>Solar</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=solar" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Aurora</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=aurora" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=aurora" width="100%">
-</p>
-```
-
-      </details>
+      <b>Aurora</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=aurora" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Spice</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=spice" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=spice" width="100%">
-</p>
-```
-
-      </details>
+      <b>Spice</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=spice" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Synthwave</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=synthwave" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=synthwave" width="100%">
-</p>
-```
-
-      </details>
+      <b>Synthwave</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=synthwave" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Radium</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=radium" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=radium" width="100%">
-</p>
-```
-
-      </details>
+      <b>Radium</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=radium" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Orchid</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=orchid" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=orchid" width="100%">
-</p>
-```
-
-      </details>
+      <b>Orchid</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=orchid" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Prestige</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=prestige" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=prestige" width="100%">
-</p>
-```
-
-      </details>
+      <b>Prestige</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=prestige" width="260">
     </td>
     <td align="center">
-      <details>
-        <summary style="cursor: pointer;">
-          <b>Glacier</b><br>
-          <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=glacier" width="260">
-        </summary>
-        <br>
-        
-```html
-### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
-
-<p align="center">
-  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=glacier" width="100%">
-</p>
-```
-
-      </details>
+      <b>Glacier</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=glacier" width="260">
     </td>
   </tr>
 </table>
