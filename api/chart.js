@@ -44,9 +44,9 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     crimson: { bull: '#fbbf24', bear: '#dc2626', grid: '#1a0505', text: '#fef2f2', textMuted: '#fca5a5' },
     velvet: { bull: '#2dd4bf', bear: '#a78bfa', grid: '#1e1b4b', text: '#eef2ff', textMuted: '#a5b4fc' },
     dune: { bull: '#d97706', bear: '#9f1239', grid: '#292524', text: '#f5f5f4', textMuted: '#a8a29e' },
-    carbon: { bull: '#10b981', bear: '#ef4444', grid: '#09090b', text: '#f4f4f5', textMuted: '#a1a1aa' },
+    apex: { bull: '#f3f4f6', bear: '#ef4444', grid: '#1f2937', text: '#ffffff', textMuted: '#9ca3af' },
     sapphire: { bull: '#38bdf8', bear: '#f472b6', grid: '#083344', text: '#cffafe', textMuted: '#67e8f9' },
-    copper: { bull: '#f59e0b', bear: '#a8a29e', grid: '#2c1c15', text: '#fef3c7', textMuted: '#fcd34d' }
+    frost: { bull: '#e0f2fe', bear: '#0284c7', grid: '#0f172a', text: '#f8fafc', textMuted: '#7dd3fc' }
   };
   
   const colors = themes[themeName] || themes.dark;
@@ -152,7 +152,7 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     : `<tspan fill="${colors.textMuted}">O</tspan> <tspan fill="${colors.text}" class="num">${openStr}</tspan>   <tspan fill="${colors.textMuted}">H</tspan> <tspan fill="${colors.text}" class="num">${highStr}</tspan>   <tspan fill="${colors.textMuted}">L</tspan> <tspan fill="${colors.text}" class="num">${lowStr}</tspan>   <tspan fill="${colors.textMuted}">C</tspan> <tspan fill="${colors.text}" class="num">${closeStr}</tspan>   <tspan fill="${dayColor}" class="num">${daySign}${dayChangeVal.toFixed(2)} (${daySign}${dayChangePct.toFixed(2)}%)</tspan>   <tspan fill="${colors.textMuted}">Vol</tspan> <tspan fill="${colors.text}" class="num">${formatVolume(lastV.volume)}</tspan>`;
 
   const currentY = mapY(lastV.close);
-  const priceTextColor = (dayColor === '#ffffff' || dayColor === '#a8ff78' || dayColor === '#00ff41' || dayColor === '#eab308' || dayColor === '#34d399' || dayColor === '#fb923c' || dayColor === '#f59e0b' || dayColor === '#06b6d4' || dayColor === '#fbbf24' || dayColor === '#2dd4bf' || dayColor === '#10b981' || dayColor === '#38bdf8' || dayColor === '#f472b6' || dayColor === '#a8a29e') ? '#000000' : '#ffffff';
+  const priceTextColor = (dayColor === '#ffffff' || dayColor === '#a8ff78' || dayColor === '#00ff41' || dayColor === '#eab308' || dayColor === '#34d399' || dayColor === '#fb923c' || dayColor === '#f59e0b' || dayColor === '#06b6d4' || dayColor === '#fbbf24' || dayColor === '#2dd4bf' || dayColor === '#10b981' || dayColor === '#38bdf8' || dayColor === '#f472b6' || dayColor === '#a8a29e' || dayColor === '#f3f4f6' || dayColor === '#e0f2fe') ? '#000000' : '#ffffff';
   
   const currentLineHtml = `
     <line x1="${pad.left}" y1="${currentY}" x2="${width - pad.right}" y2="${currentY}" stroke="${dayColor}" stroke-width="1" stroke-dasharray="4,4"/>

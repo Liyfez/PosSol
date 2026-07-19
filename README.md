@@ -112,16 +112,16 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
   </tr>
   <tr>
     <td align="center">
-      <b>Carbon</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=carbon" width="260">
+      <b>Apex</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=apex" width="260">
     </td>
     <td align="center">
       <b>Sapphire</b><br>
       <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=sapphire" width="260">
     </td>
     <td align="center">
-      <b>Copper</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=copper" width="260">
+      <b>Frost</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=frost" width="260">
     </td>
   </tr>
 </table>
