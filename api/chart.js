@@ -64,15 +64,15 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     radium: { bull: '#bef264', bear: '#b91c1c', grid: '#111827', text: '#f9fafb', textMuted: '#9ca3af' },
     onyx: { bull: '#38bdf8', bear: '#f43f5e', grid: '#0a0a0a', text: '#ffffff', textMuted: '#737373' },
     tokyo: { bull: '#9ece6a', bear: '#f7768e', grid: '#1a1b26', text: '#c0caf5', textMuted: '#565f89' },
-    blossom: { bull: '#fbcfe8', bear: '#e11d48', grid: '#14050d', text: '#fce7f3', textMuted: '#fda4af' },
-    matcha: { bull: '#bbf7d0', bear: '#16a34a', grid: '#05140b', text: '#dcfce7', textMuted: '#86efac' },
-    azure: { bull: '#bae6fd', bear: '#0284c7', grid: '#05121c', text: '#e0f2fe', textMuted: '#7dd3fc' },
-    amethyst: { bull: '#e9d5ff', bear: '#9333ea', grid: '#0e0517', text: '#f3e8ff', textMuted: '#d8b4e2' },
-    amber: { bull: '#fef08a', bear: '#ea580c', grid: '#170b00', text: '#fef3c7', textMuted: '#fcd34d' },
-    garnet: { bull: '#fecaca', bear: '#dc2626', grid: '#170404', text: '#ffe4e6', textMuted: '#fca5a5' },
-    teal: { bull: '#ccfbf1', bear: '#0d9488', grid: '#021414', text: '#f0fdfa', textMuted: '#5eead4' },
-    indigo: { bull: '#c7d2fe', bear: '#4f46e5', grid: '#08081a', text: '#e0e7ff', textMuted: '#a5b4fc' },
-    mocha: { bull: '#fed7aa', bear: '#b45309', grid: '#140a05', text: '#ffedd5', textMuted: '#fdba74' },
+    blossom: { bull: '#fdf2f8', bear: '#f472b6', grid: '#1f0c15', text: '#fdf2f8', textMuted: '#fbcfe8' },
+    matcha: { bull: '#f0fdf4', bear: '#4ade80', grid: '#0a1c10', text: '#f0fdf4', textMuted: '#bbf7d0' },
+    azure: { bull: '#f0f9ff', bear: '#38bdf8', grid: '#0c1a26', text: '#f0f9ff', textMuted: '#bae6fd' },
+    amethyst: { bull: '#faf5ff', bear: '#c084fc', grid: '#170b21', text: '#faf5ff', textMuted: '#e9d5ff' },
+    amber: { bull: '#fefce8', bear: '#facc15', grid: '#211a05', text: '#fefce8', textMuted: '#fde68a' },
+    garnet: { bull: '#fef2f2', bear: '#f87171', grid: '#240a0a', text: '#fef2f2', textMuted: '#fecaca' },
+    teal: { bull: '#f0fdfa', bear: '#2dd4bf', grid: '#071f1d', text: '#f0fdfa', textMuted: '#ccfbf1' },
+    indigo: { bull: '#eef2ff', bear: '#818cf8', grid: '#0d0f26', text: '#eef2ff', textMuted: '#c7d2fe' },
+    mocha: { bull: '#fff7ed', bear: '#fb923c', grid: '#21130a', text: '#fff7ed', textMuted: '#fed7aa' },
     glacier: { bull: '#7dd3fc', bear: '#1e3a8a', grid: '#083344', text: '#cffafe', textMuted: '#67e8f9' }
   };
   
@@ -266,8 +266,8 @@ export default async function handler(req, res) {
   const isMini = mini === 'true';
   const isFake = fake === 'true';
   
-  // Adding v12 to cache key to instantly bust the cache
-  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v12`;
+  // Adding v13 to cache key to instantly bust the cache
+  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v13`;
 
   const cached = cache.get(cacheKey);
   if (cached && Date.now() - cached.timestamp < 5 * 60 * 1000) { 
