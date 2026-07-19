@@ -63,7 +63,7 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     neon_city: { bull: '#22d3ee', bear: '#facc15', grid: '#020617', text: '#f8fafc', textMuted: '#94a3b8' },
     radium: { bull: '#bef264', bear: '#b91c1c', grid: '#111827', text: '#f9fafb', textMuted: '#9ca3af' },
     onyx: { bull: '#38bdf8', bear: '#f43f5e', grid: '#0a0a0a', text: '#ffffff', textMuted: '#737373' },
-    drifter: { bull: '#ff003c', bear: '#fde047', grid: '#09090b', text: '#f4f4f5', textMuted: '#a1a1aa' },
+    tokyo: { bull: '#9ece6a', bear: '#f7768e', grid: '#1a1b26', text: '#c0caf5', textMuted: '#565f89' },
     glacier: { bull: '#7dd3fc', bear: '#1e3a8a', grid: '#083344', text: '#cffafe', textMuted: '#67e8f9' }
   };
   
@@ -257,8 +257,8 @@ export default async function handler(req, res) {
   const isMini = mini === 'true';
   const isFake = fake === 'true';
   
-  // Adding v9 to cache key to instantly bust the cache
-  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v9`;
+  // Adding v10 to cache key to instantly bust the cache
+  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v10`;
 
   const cached = cache.get(cacheKey);
   if (cached && Date.now() - cached.timestamp < 5 * 60 * 1000) { 

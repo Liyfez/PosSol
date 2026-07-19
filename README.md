@@ -199,8 +199,8 @@ PosSol comes with 36 beautifully crafted aesthetic themes. To use a theme, just 
       <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=6&theme=onyx" width="260">
     </td>
     <td align="center">
-      <b>Drifter</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=6&theme=drifter" width="260">
+      <b>Tokyo</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=10&theme=tokyo" width="260">
     </td>
     <td align="center">
       <b>Glacier</b><br>
