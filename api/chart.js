@@ -64,15 +64,15 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     radium: { bull: '#bef264', bear: '#b91c1c', grid: '#111827', text: '#f9fafb', textMuted: '#9ca3af' },
     onyx: { bull: '#38bdf8', bear: '#f43f5e', grid: '#0a0a0a', text: '#ffffff', textMuted: '#737373' },
     tokyo: { bull: '#9ece6a', bear: '#f7768e', grid: '#1a1b26', text: '#c0caf5', textMuted: '#565f89' },
-    blossom: { bull: '#fbcfe8', bear: '#be185d', grid: '#2e091e', text: '#fce7f3', textMuted: '#9d174d' },
-    matcha: { bull: '#bbf7d0', bear: '#166534', grid: '#062817', text: '#dcfce7', textMuted: '#14532d' },
-    azure: { bull: '#bae6fd', bear: '#0369a1', grid: '#082f49', text: '#e0f2fe', textMuted: '#075985' },
-    amethyst: { bull: '#e9d5ff', bear: '#6b21a8', grid: '#2e1065', text: '#f3e8ff', textMuted: '#4c1d95' },
-    amber: { bull: '#fde68a', bear: '#d97706', grid: '#451a03', text: '#fef3c7', textMuted: '#78350f' },
-    garnet: { bull: '#fecdd3', bear: '#be123c', grid: '#450a0a', text: '#ffe4e6', textMuted: '#881337' },
-    graphite: { bull: '#f5f5f5', bear: '#52525b', grid: '#171717', text: '#fafafa', textMuted: '#3f3f46' },
-    lagoon: { bull: '#ccfbf1', bear: '#0f766e', grid: '#042f2e', text: '#f0fdfa', textMuted: '#115e59' },
-    mocha: { bull: '#d7ccc8', bear: '#5d4037', grid: '#2d1a11', text: '#efebe9', textMuted: '#4e342e' },
+    hologram: { bull: '#d946ef', bear: '#06b6d4', grid: '#0b0f19', text: '#fdf4ff', textMuted: '#c084fc' },
+    goldleaf: { bull: '#d4af37', bear: '#14532d', grid: '#121212', text: '#fef3c7', textMuted: '#9ca3af' },
+    dracula: { bull: '#50fa7b', bear: '#ff79c6', grid: '#282a36', text: '#f8f8f2', textMuted: '#6272a4' },
+    nord: { bull: '#8fbcbb', bear: '#bf616a', grid: '#2e3440', text: '#eceff4', textMuted: '#4c566a' },
+    sunset: { bull: '#f97316', bear: '#eab308', grid: '#2e0219', text: '#fff7ed', textMuted: '#fdba74' },
+    starlight: { bull: '#e2e8f0', bear: '#3b82f6', grid: '#050505', text: '#ffffff', textMuted: '#94a3b8' },
+    venetian: { bull: '#e11d48', bear: '#d97706', grid: '#1a0f14', text: '#fff1f2', textMuted: '#fda4af' },
+    jade: { bull: '#6ee7b7', bear: '#facc15', grid: '#022c22', text: '#ecfdf5', textMuted: '#34d399' },
+    carbon: { bull: '#ef4444', bear: '#3b82f6', grid: '#09090b', text: '#f4f4f5', textMuted: '#a1a1aa' },
     glacier: { bull: '#7dd3fc', bear: '#1e3a8a', grid: '#083344', text: '#cffafe', textMuted: '#67e8f9' }
   };
   
@@ -179,7 +179,8 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     : `<tspan fill="${colors.textMuted}">O</tspan> <tspan fill="${colors.text}" class="num">${openStr}</tspan>   <tspan fill="${colors.textMuted}">H</tspan> <tspan fill="${colors.text}" class="num">${highStr}</tspan>   <tspan fill="${colors.textMuted}">L</tspan> <tspan fill="${colors.text}" class="num">${lowStr}</tspan>   <tspan fill="${colors.textMuted}">C</tspan> <tspan fill="${colors.text}" class="num">${closeStr}</tspan>   <tspan fill="${dayColor}" class="num">${daySign}${dayChangeVal.toFixed(2)} (${daySign}${dayChangePct.toFixed(2)}%)</tspan>   <tspan fill="${colors.textMuted}">Vol</tspan> <tspan fill="${colors.text}" class="num">${formatVolume(lastV.volume)}</tspan>`;
 
   const currentY = mapY(lastV.close);
-  const priceTextColor = (dayColor === '#ffffff' || dayColor === '#a8ff78' || dayColor === '#00ff41' || dayColor === '#eab308' || dayColor === '#34d399' || dayColor === '#fb923c' || dayColor === '#f59e0b' || dayColor === '#06b6d4' || dayColor === '#fbbf24' || dayColor === '#2dd4bf' || dayColor === '#10b981' || dayColor === '#38bdf8' || dayColor === '#f472b6' || dayColor === '#a8a29e' || dayColor === '#f3f4f6' || dayColor === '#e0f2fe' || dayColor === '#a3e635' || dayColor === '#e5e5e5' || dayColor === '#c084fc' || dayColor === '#22c55e' || dayColor === '#ccff00' || dayColor === '#ff8c00' || dayColor === '#ffd700' || dayColor === '#e0e0e0' || dayColor === '#bef264' || dayColor === '#f97316' || dayColor === '#facc15' || dayColor === '#6ee7b7' || dayColor === '#84cc16' || dayColor === '#00ffff' || dayColor === '#f9a8d4' || dayColor === '#7dd3fc' || dayColor === '#fde047' || dayColor === '#fb7185' || dayColor === '#22d3ee') ? '#000000' : '#ffffff';
+  const darkColors = ['#000000', '#18181b', '#0f172a', '#1e1b4b', '#171717', '#831843', '#1a0500', '#2e1065', '#1c1917', '#292524', '#020617', '#111827', '#0a0a0a', '#09090b', '#083344', '#1a1b26', '#0b0f19', '#121212', '#282a36', '#2e3440', '#2e0219', '#050505', '#1a0f14', '#022c22', '#09090b', '#166534', '#0369a1', '#6b21a8', '#be123c', '#0f766e', '#14532d', '#bf616a', '#3b82f6', '#06b6d4', '#e11d48', '#ef4444', '#38bdf8', '#52525b', '#1e3a8a', '#7e22ce', '#b91c1c', '#f43f5e', '#9f1239', '#8b5cf6', '#d946ef', '#d4af37', '#50fa7b', '#8fbcbb', '#f97316', '#e2e8f0', '#e11d48', '#6ee7b7', '#ef4444'];
+  const priceTextColor = darkColors.includes(dayColor) ? '#ffffff' : '#000000';
   
   const currentLineHtml = `
     <line x1="${pad.left}" y1="${currentY}" x2="${width - pad.right}" y2="${currentY}" stroke="${dayColor}" stroke-width="1" stroke-dasharray="4,4"/>
@@ -266,8 +267,8 @@ export default async function handler(req, res) {
   const isMini = mini === 'true';
   const isFake = fake === 'true';
   
-  // Adding v11 to cache key to instantly bust the cache
-  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v11`;
+  // Adding v12 to cache key to instantly bust the cache
+  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v12`;
 
   const cached = cache.get(cacheKey);
   if (cached && Date.now() - cached.timestamp < 5 * 60 * 1000) { 

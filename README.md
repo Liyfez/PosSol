@@ -209,44 +209,44 @@ PosSol comes with 45 beautifully crafted aesthetic themes. To use a theme, just 
   </tr>
   <tr>
     <td align="center">
-      <b>Blossom</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=blossom" width="260">
+      <b>Hologram</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=12&theme=hologram" width="260">
     </td>
     <td align="center">
-      <b>Matcha</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=matcha" width="260">
+      <b>Goldleaf</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=12&theme=goldleaf" width="260">
     </td>
     <td align="center">
-      <b>Azure</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=azure" width="260">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <b>Amethyst</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=amethyst" width="260">
-    </td>
-    <td align="center">
-      <b>Amber</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=amber" width="260">
-    </td>
-    <td align="center">
-      <b>Garnet</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=garnet" width="260">
+      <b>Dracula</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=12&theme=dracula" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <b>Graphite</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=graphite" width="260">
+      <b>Nord</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=12&theme=nord" width="260">
     </td>
     <td align="center">
-      <b>Lagoon</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=lagoon" width="260">
+      <b>Sunset</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=12&theme=sunset" width="260">
     </td>
     <td align="center">
-      <b>Mocha</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=mocha" width="260">
+      <b>Starlight</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=12&theme=starlight" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Venetian</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=12&theme=venetian" width="260">
+    </td>
+    <td align="center">
+      <b>Jade</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=12&theme=jade" width="260">
+    </td>
+    <td align="center">
+      <b>Carbon</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=12&theme=carbon" width="260">
     </td>
   </tr>
 </table>
