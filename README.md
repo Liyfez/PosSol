@@ -36,7 +36,7 @@
 
 ## 🎨 Available Themes
 
-PosSol comes with 36 beautifully crafted aesthetic themes. To use a theme, just copy the name of the theme below and replace `theme=dark` with it in your URL!
+PosSol comes with 45 beautifully crafted aesthetic themes. To use a theme, just copy the name of the theme below and replace `theme=dark` with it in your URL!
 
 <table align="center">
   <tr>
@@ -205,6 +205,48 @@ PosSol comes with 36 beautifully crafted aesthetic themes. To use a theme, just 
     <td align="center">
       <b>Glacier</b><br>
       <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=glacier" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Blossom</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=blossom" width="260">
+    </td>
+    <td align="center">
+      <b>Matcha</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=matcha" width="260">
+    </td>
+    <td align="center">
+      <b>Azure</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=azure" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Amethyst</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=amethyst" width="260">
+    </td>
+    <td align="center">
+      <b>Amber</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=amber" width="260">
+    </td>
+    <td align="center">
+      <b>Garnet</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=garnet" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Graphite</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=graphite" width="260">
+    </td>
+    <td align="center">
+      <b>Lagoon</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=lagoon" width="260">
+    </td>
+    <td align="center">
+      <b>Mocha</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=mocha" width="260">
     </td>
   </tr>
 </table>

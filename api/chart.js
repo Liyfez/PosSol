@@ -64,6 +64,15 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     radium: { bull: '#bef264', bear: '#b91c1c', grid: '#111827', text: '#f9fafb', textMuted: '#9ca3af' },
     onyx: { bull: '#38bdf8', bear: '#f43f5e', grid: '#0a0a0a', text: '#ffffff', textMuted: '#737373' },
     tokyo: { bull: '#9ece6a', bear: '#f7768e', grid: '#1a1b26', text: '#c0caf5', textMuted: '#565f89' },
+    blossom: { bull: '#fbcfe8', bear: '#be185d', grid: '#2e091e', text: '#fce7f3', textMuted: '#9d174d' },
+    matcha: { bull: '#bbf7d0', bear: '#166534', grid: '#062817', text: '#dcfce7', textMuted: '#14532d' },
+    azure: { bull: '#bae6fd', bear: '#0369a1', grid: '#082f49', text: '#e0f2fe', textMuted: '#075985' },
+    amethyst: { bull: '#e9d5ff', bear: '#6b21a8', grid: '#2e1065', text: '#f3e8ff', textMuted: '#4c1d95' },
+    amber: { bull: '#fde68a', bear: '#d97706', grid: '#451a03', text: '#fef3c7', textMuted: '#78350f' },
+    garnet: { bull: '#fecdd3', bear: '#be123c', grid: '#450a0a', text: '#ffe4e6', textMuted: '#881337' },
+    graphite: { bull: '#f5f5f5', bear: '#52525b', grid: '#171717', text: '#fafafa', textMuted: '#3f3f46' },
+    lagoon: { bull: '#ccfbf1', bear: '#0f766e', grid: '#042f2e', text: '#f0fdfa', textMuted: '#115e59' },
+    mocha: { bull: '#d7ccc8', bear: '#5d4037', grid: '#2d1a11', text: '#efebe9', textMuted: '#4e342e' },
     glacier: { bull: '#7dd3fc', bear: '#1e3a8a', grid: '#083344', text: '#cffafe', textMuted: '#67e8f9' }
   };
   
@@ -257,8 +266,8 @@ export default async function handler(req, res) {
   const isMini = mini === 'true';
   const isFake = fake === 'true';
   
-  // Adding v10 to cache key to instantly bust the cache
-  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v10`;
+  // Adding v11 to cache key to instantly bust the cache
+  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v11`;
 
   const cached = cache.get(cacheKey);
   if (cached && Date.now() - cached.timestamp < 5 * 60 * 1000) { 
