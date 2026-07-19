@@ -55,7 +55,16 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     twilight: { bull: '#f59e0b', bear: '#8b5cf6', grid: '#1e1b4b', text: '#fdf4ff', textMuted: '#c4b5fd' },
     plasma: { bull: '#a855f7', bear: '#f3f4f6', grid: '#171717', text: '#ffffff', textMuted: '#a3a3a3' },
     bubblegum: { bull: '#f472b6', bear: '#38bdf8', grid: '#831843', text: '#fdf2f8', textMuted: '#f9a8d4' },
-    copperhead: { bull: '#d97706', bear: '#0ea5e9', grid: '#0f172a', text: '#f8fafc', textMuted: '#cbd5e1' }
+    copperhead: { bull: '#d97706', bear: '#0ea5e9', grid: '#0f172a', text: '#f8fafc', textMuted: '#cbd5e1' },
+    porcelain: { bull: '#2563eb', bear: '#dc2626', grid: '#ffffff', text: '#0f172a', textMuted: '#64748b' },
+    parchment: { bull: '#065f46', bear: '#991b1b', grid: '#fdf6e3', text: '#1c1917', textMuted: '#78716c' },
+    macchiato: { bull: '#8b5cf6', bear: '#f59e0b', grid: '#f5f5f4', text: '#292524', textMuted: '#a8a29e' },
+    cloud: { bull: '#0284c7', bear: '#db2777', grid: '#f0f9ff', text: '#0c4a6e', textMuted: '#0ea5e9' },
+    sakura_light: { bull: '#db2777', bear: '#059669', grid: '#fdf2f8', text: '#831843', textMuted: '#f472b6' },
+    toxic: { bull: '#ccff00', bear: '#bf00ff', grid: '#09090b', text: '#ffffff', textMuted: '#a1a1aa' },
+    magma: { bull: '#ff8c00', bear: '#ff0000', grid: '#1a0500', text: '#ffffff', textMuted: '#fca5a5' },
+    gold: { bull: '#ffd700', bear: '#b8860b', grid: '#000000', text: '#ffffff', textMuted: '#fff8dc' },
+    titanium: { bull: '#e0e0e0', bear: '#757575', grid: '#1e1e1e', text: '#ffffff', textMuted: '#9e9e9e' }
   };
   
   const colors = themes[themeName] || themes.dark;
@@ -161,7 +170,7 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     : `<tspan fill="${colors.textMuted}">O</tspan> <tspan fill="${colors.text}" class="num">${openStr}</tspan>   <tspan fill="${colors.textMuted}">H</tspan> <tspan fill="${colors.text}" class="num">${highStr}</tspan>   <tspan fill="${colors.textMuted}">L</tspan> <tspan fill="${colors.text}" class="num">${lowStr}</tspan>   <tspan fill="${colors.textMuted}">C</tspan> <tspan fill="${colors.text}" class="num">${closeStr}</tspan>   <tspan fill="${dayColor}" class="num">${daySign}${dayChangeVal.toFixed(2)} (${daySign}${dayChangePct.toFixed(2)}%)</tspan>   <tspan fill="${colors.textMuted}">Vol</tspan> <tspan fill="${colors.text}" class="num">${formatVolume(lastV.volume)}</tspan>`;
 
   const currentY = mapY(lastV.close);
-  const priceTextColor = (dayColor === '#ffffff' || dayColor === '#a8ff78' || dayColor === '#00ff41' || dayColor === '#eab308' || dayColor === '#34d399' || dayColor === '#fb923c' || dayColor === '#f59e0b' || dayColor === '#06b6d4' || dayColor === '#fbbf24' || dayColor === '#2dd4bf' || dayColor === '#10b981' || dayColor === '#38bdf8' || dayColor === '#f472b6' || dayColor === '#a8a29e' || dayColor === '#f3f4f6' || dayColor === '#e0f2fe' || dayColor === '#a3e635' || dayColor === '#e5e5e5' || dayColor === '#c084fc' || dayColor === '#22c55e') ? '#000000' : '#ffffff';
+  const priceTextColor = (dayColor === '#ffffff' || dayColor === '#a8ff78' || dayColor === '#00ff41' || dayColor === '#eab308' || dayColor === '#34d399' || dayColor === '#fb923c' || dayColor === '#f59e0b' || dayColor === '#06b6d4' || dayColor === '#fbbf24' || dayColor === '#2dd4bf' || dayColor === '#10b981' || dayColor === '#38bdf8' || dayColor === '#f472b6' || dayColor === '#a8a29e' || dayColor === '#f3f4f6' || dayColor === '#e0f2fe' || dayColor === '#a3e635' || dayColor === '#e5e5e5' || dayColor === '#c084fc' || dayColor === '#22c55e' || dayColor === '#ccff00' || dayColor === '#ff8c00' || dayColor === '#ffd700' || dayColor === '#e0e0e0') ? '#000000' : '#ffffff';
   
   const currentLineHtml = `
     <line x1="${pad.left}" y1="${currentY}" x2="${width - pad.right}" y2="${currentY}" stroke="${dayColor}" stroke-width="1" stroke-dasharray="4,4"/>
@@ -248,8 +257,8 @@ export default async function handler(req, res) {
   const isMini = mini === 'true';
   const isFake = fake === 'true';
   
-  // Adding v5 to cache key to instantly bust the cache
-  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v5`;
+  // Adding v6 to cache key to instantly bust the cache
+  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v6`;
 
   const cached = cache.get(cacheKey);
   if (cached && Date.now() - cached.timestamp < 5 * 60 * 1000) { 

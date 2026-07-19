@@ -166,6 +166,48 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
       <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=copperhead" width="260">
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <b>Porcelain</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=3&theme=porcelain" width="260">
+    </td>
+    <td align="center">
+      <b>Parchment</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=3&theme=parchment" width="260">
+    </td>
+    <td align="center">
+      <b>Macchiato</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=3&theme=macchiato" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Cloud</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=3&theme=cloud" width="260">
+    </td>
+    <td align="center">
+      <b>Sakura Light</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=3&theme=sakura_light" width="260">
+    </td>
+    <td align="center">
+      <b>Toxic</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=3&theme=toxic" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Magma</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=3&theme=magma" width="260">
+    </td>
+    <td align="center">
+      <b>Gold</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=3&theme=gold" width="260">
+    </td>
+    <td align="center">
+      <b>Titanium</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=3&theme=titanium" width="260">
+    </td>
+  </tr>
 </table>
 
 ---
