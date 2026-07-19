@@ -48,11 +48,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=dark" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=dark" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=dark" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -62,11 +66,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=monochrome" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=monochrome" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=monochrome" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -76,11 +84,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=abyss" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=abyss" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=abyss" width="100%">
+</p>
+```
+
       </details>
     </td>
   </tr>
@@ -92,11 +104,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=evangelion" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=evangelion" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=evangelion" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -106,11 +122,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=nebula" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=nebula" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=nebula" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -120,11 +140,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=sakura" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=sakura" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=sakura" width="100%">
+</p>
+```
+
       </details>
     </td>
   </tr>
@@ -136,11 +160,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=obsidian" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=obsidian" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=obsidian" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -150,11 +178,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=matrix" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=matrix" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=matrix" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -164,11 +196,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=midnight" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=midnight" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=midnight" width="100%">
+</p>
+```
+
       </details>
     </td>
   </tr>
@@ -180,11 +216,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=oceanic" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=oceanic" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=oceanic" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -194,11 +234,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=cyber" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=cyber" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=cyber" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -208,11 +252,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=emerald" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=emerald" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=emerald" width="100%">
+</p>
+```
+
       </details>
     </td>
   </tr>
@@ -224,11 +272,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=crimson" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=crimson" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=crimson" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -238,11 +290,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=velvet" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=velvet" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=velvet" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -252,11 +308,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=dune" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=dune" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=dune" width="100%">
+</p>
+```
+
       </details>
     </td>
   </tr>
@@ -268,11 +328,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=apex" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=apex" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=apex" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -282,11 +346,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=sapphire" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=sapphire" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=sapphire" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -296,11 +364,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=frost" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=frost" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=frost" width="100%">
+</p>
+```
+
       </details>
     </td>
   </tr>
@@ -312,11 +384,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=2&theme=venom" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=venom" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=venom" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -326,11 +402,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=forest" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=forest" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=forest" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -340,11 +420,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=2&theme=volt" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=volt" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=volt" width="100%">
+</p>
+```
+
       </details>
     </td>
   </tr>
@@ -356,11 +440,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=coral" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=coral" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=coral" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -370,11 +458,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=lavender" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=lavender" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=lavender" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -384,11 +476,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=twilight" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=twilight" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=twilight" width="100%">
+</p>
+```
+
       </details>
     </td>
   </tr>
@@ -400,11 +496,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=2&theme=plasma" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=plasma" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=plasma" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -414,11 +514,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=bubblegum" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=bubblegum" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=bubblegum" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -428,11 +532,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=copperhead" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=copperhead" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=copperhead" width="100%">
+</p>
+```
+
       </details>
     </td>
   </tr>
@@ -444,11 +552,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=flare" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=flare" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=flare" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -458,11 +570,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=solar" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=solar" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=solar" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -472,11 +588,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=aurora" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=aurora" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=aurora" width="100%">
+</p>
+```
+
       </details>
     </td>
   </tr>
@@ -488,11 +608,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=spice" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=spice" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=spice" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -502,11 +626,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=synthwave" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=synthwave" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=synthwave" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -516,11 +644,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=radium" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=radium" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=radium" width="100%">
+</p>
+```
+
       </details>
     </td>
   </tr>
@@ -532,11 +664,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=orchid" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=orchid" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=orchid" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -546,11 +682,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=prestige" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=prestige" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=prestige" width="100%">
+</p>
+```
+
       </details>
     </td>
     <td align="center">
@@ -560,11 +700,15 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
           <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=glacier" width="260">
         </summary>
         <br>
-        <pre align="left"><code>### &lt;img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /&gt; PosSol Stock View
+        
+```html
+### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
 
-&lt;p align="center"&gt;
-  &lt;img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&amp;period=1y&amp;v=1&amp;theme=glacier" width="100%"&gt;
-&lt;/p&gt;</code></pre>
+<p align="center">
+  <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=glacier" width="100%">
+</p>
+```
+
       </details>
     </td>
   </tr>
