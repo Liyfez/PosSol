@@ -266,8 +266,8 @@ export default async function handler(req, res) {
   const isMini = mini === 'true';
   const isFake = fake === 'true';
   
-  // Adding v13 to cache key to instantly bust the cache
-  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v13`;
+  // Adding v14 to cache key to instantly bust the cache
+  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v14`;
 
   const cached = cache.get(cacheKey);
   if (cached && Date.now() - cached.timestamp < 5 * 60 * 1000) { 

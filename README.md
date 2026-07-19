@@ -210,43 +210,43 @@ PosSol comes with 45 beautifully crafted aesthetic themes. To use a theme, just 
   <tr>
     <td align="center">
       <b>Blossom</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=blossom" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=14&theme=blossom" width="260">
     </td>
     <td align="center">
       <b>Matcha</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=matcha" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=14&theme=matcha" width="260">
     </td>
     <td align="center">
       <b>Azure</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=azure" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=14&theme=azure" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Amethyst</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=amethyst" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=14&theme=amethyst" width="260">
     </td>
     <td align="center">
       <b>Amber</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=amber" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=14&theme=amber" width="260">
     </td>
     <td align="center">
       <b>Garnet</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=garnet" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=14&theme=garnet" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Teal</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=teal" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=14&theme=teal" width="260">
     </td>
     <td align="center">
       <b>Indigo</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=indigo" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=14&theme=indigo" width="260">
     </td>
     <td align="center">
       <b>Mocha</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=11&theme=mocha" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=14&theme=mocha" width="260">
     </td>
   </tr>
 </table>
