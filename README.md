@@ -169,43 +169,43 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
   <tr>
     <td align="center">
       <b>Flare</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=4&theme=flare" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=flare" width="260">
     </td>
     <td align="center">
-      <b>Tron</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=4&theme=tron" width="260">
+      <b>Solar</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=solar" width="260">
     </td>
     <td align="center">
-      <b>Phantom</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=4&theme=phantom" width="260">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <b>Cobalt</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=4&theme=cobalt" width="260">
-    </td>
-    <td align="center">
-      <b>Acid</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=4&theme=acid" width="260">
-    </td>
-    <td align="center">
-      <b>Marine</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=4&theme=marine" width="260">
+      <b>Aurora</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=aurora" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <b>Magenta</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=4&theme=magenta" width="260">
+      <b>Spice</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=spice" width="260">
+    </td>
+    <td align="center">
+      <b>Synthwave</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=synthwave" width="260">
+    </td>
+    <td align="center">
+      <b>Radium</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=radium" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Orchid</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=orchid" width="260">
     </td>
     <td align="center">
       <b>Prestige</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=4&theme=prestige" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=prestige" width="260">
     </td>
     <td align="center">
-      <b>Ruby</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=4&theme=ruby" width="260">
+      <b>Glacier</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=5&theme=glacier" width="260">
     </td>
   </tr>
 </table>
