@@ -1,4 +1,6 @@
-<p align="center">
+const fs = require('fs');
+
+let content = `<p align="center">
   <img src="assets/logo.svg" alt="PosSol Logo" width="120" />
 </p>
 
@@ -19,24 +21,24 @@
 ## 📋 Usage notes
 
 - Add this snippet to your README:
-  ```md
+  \`\`\`md
   ### <img src="https://raw.githubusercontent.com/Liyfez/PosSol/main/assets/logo.svg" width="32" style="vertical-align: middle; padding-bottom: 4px;" /> PosSol Stock View
   
   <p align="center">
     <img src="https://pos-sol.vercel.app/api/chart?symbol=AAPL&period=1y&v=1&theme=dark" width="100%">
   </p>
-  ```
+  \`\`\`
 
-- To use another stock or crypto: change the value of `symbol=` (example: `symbol=AAPL`)
-- To change the timeline: change the value of `period=` (example: `period=30d`, `6m`, `1y`)
-- To use another theme: change the value of `theme=` (example: `theme=nebula`)
-- Works perfectly out of the box with any stocks and crypto, Global stocks (e.g. `TSLA`, `MSFT`), and Crypto (e.g. `BTC/USD`, `ETH/USD`).
+- To use another stock or crypto: change the value of \`symbol=\` (example: \`symbol=AAPL\`)
+- To change the timeline: change the value of \`period=\` (example: \`period=30d\`, \`6m\`, \`1y\`)
+- To use another theme: change the value of \`theme=\` (example: \`theme=nebula\`)
+- Works perfectly out of the box with any stocks and crypto, Global stocks (e.g. \`TSLA\`, \`MSFT\`), and Crypto (e.g. \`BTC/USD\`, \`ETH/USD\`).
 
 ---
 
 ## 🎨 Available Themes
 
-PosSol comes with 36 beautifully crafted aesthetic themes. To use a theme, just copy the name of the theme below and replace `theme=dark` with it in your URL!
+PosSol comes with 36 beautifully crafted aesthetic themes. To use a theme, just copy the name of the theme below and replace \`theme=dark\` with it in your URL!
 
 <table align="center">
   <tr>
@@ -215,5 +217,8 @@ PosSol comes with 36 beautifully crafted aesthetic themes. To use a theme, just 
 
 PosSol is built entirely on Serverless Edge Functions using native SVG generation. 
 - **Zero Dependencies**: There are no heavy binaries or external charting libraries slowing it down.
-- **Auto-updating Cache**: Charts are cached heavily at the Vercel edge (`s-maxage=300`), guaranteeing your profile loads instantly while keeping data perfectly fresh behind the scenes.
+- **Auto-updating Cache**: Charts are cached heavily at the Vercel edge (\`s-maxage=300\`), guaranteeing your profile loads instantly while keeping data perfectly fresh behind the scenes.
 - **Fail-safe Fallbacks**: PosSol intelligently routes data between APIs to ensure 100% uptime for your profile.
+`;
+
+fs.writeFileSync('README.md', content);

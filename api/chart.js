@@ -56,14 +56,14 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     plasma: { bull: '#a855f7', bear: '#f3f4f6', grid: '#171717', text: '#ffffff', textMuted: '#a3a3a3' },
     bubblegum: { bull: '#f472b6', bear: '#38bdf8', grid: '#831843', text: '#fdf2f8', textMuted: '#f9a8d4' },
     copperhead: { bull: '#d97706', bear: '#0ea5e9', grid: '#0f172a', text: '#f8fafc', textMuted: '#cbd5e1' },
-    flare: { bull: '#f3f4f6', bear: '#f97316', grid: '#18181b', text: '#ffffff', textMuted: '#a1a1aa' },
+    ember: { bull: '#fb923c', bear: '#9f1239', grid: '#1a0500', text: '#fff1f2', textMuted: '#fda4af' },
     solar: { bull: '#facc15', bear: '#ec4899', grid: '#2e1065', text: '#fdf4ff', textMuted: '#e879f9' },
-    aurora: { bull: '#6ee7b7', bear: '#c084fc', grid: '#0f172a', text: '#f8fafc', textMuted: '#cbd5e1' },
+    monsoon: { bull: '#fb7185', bear: '#2dd4bf', grid: '#1c1917', text: '#fafaf9', textMuted: '#a8a29e' },
     spice: { bull: '#f97316', bear: '#84cc16', grid: '#292524', text: '#fafaf9', textMuted: '#a8a29e' },
-    synthwave: { bull: '#00ffff', bear: '#ff00ff', grid: '#000000', text: '#ffffff', textMuted: '#a3a3a3' },
+    neon_city: { bull: '#22d3ee', bear: '#facc15', grid: '#020617', text: '#f8fafc', textMuted: '#94a3b8' },
     radium: { bull: '#bef264', bear: '#b91c1c', grid: '#111827', text: '#f9fafb', textMuted: '#9ca3af' },
-    orchid: { bull: '#f9a8d4', bear: '#7e22ce', grid: '#1e1b4b', text: '#eef2ff', textMuted: '#a5b4fc' },
-    prestige: { bull: '#f3f4f6', bear: '#fbbf24', grid: '#18181b', text: '#ffffff', textMuted: '#a1a1aa' },
+    onyx: { bull: '#38bdf8', bear: '#f43f5e', grid: '#0a0a0a', text: '#ffffff', textMuted: '#737373' },
+    drifter: { bull: '#ff003c', bear: '#fde047', grid: '#09090b', text: '#f4f4f5', textMuted: '#a1a1aa' },
     glacier: { bull: '#7dd3fc', bear: '#1e3a8a', grid: '#083344', text: '#cffafe', textMuted: '#67e8f9' }
   };
   
@@ -170,7 +170,7 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     : `<tspan fill="${colors.textMuted}">O</tspan> <tspan fill="${colors.text}" class="num">${openStr}</tspan>   <tspan fill="${colors.textMuted}">H</tspan> <tspan fill="${colors.text}" class="num">${highStr}</tspan>   <tspan fill="${colors.textMuted}">L</tspan> <tspan fill="${colors.text}" class="num">${lowStr}</tspan>   <tspan fill="${colors.textMuted}">C</tspan> <tspan fill="${colors.text}" class="num">${closeStr}</tspan>   <tspan fill="${dayColor}" class="num">${daySign}${dayChangeVal.toFixed(2)} (${daySign}${dayChangePct.toFixed(2)}%)</tspan>   <tspan fill="${colors.textMuted}">Vol</tspan> <tspan fill="${colors.text}" class="num">${formatVolume(lastV.volume)}</tspan>`;
 
   const currentY = mapY(lastV.close);
-  const priceTextColor = (dayColor === '#ffffff' || dayColor === '#a8ff78' || dayColor === '#00ff41' || dayColor === '#eab308' || dayColor === '#34d399' || dayColor === '#fb923c' || dayColor === '#f59e0b' || dayColor === '#06b6d4' || dayColor === '#fbbf24' || dayColor === '#2dd4bf' || dayColor === '#10b981' || dayColor === '#38bdf8' || dayColor === '#f472b6' || dayColor === '#a8a29e' || dayColor === '#f3f4f6' || dayColor === '#e0f2fe' || dayColor === '#a3e635' || dayColor === '#e5e5e5' || dayColor === '#c084fc' || dayColor === '#22c55e' || dayColor === '#ccff00' || dayColor === '#ff8c00' || dayColor === '#ffd700' || dayColor === '#e0e0e0' || dayColor === '#bef264' || dayColor === '#f97316' || dayColor === '#facc15' || dayColor === '#6ee7b7' || dayColor === '#84cc16' || dayColor === '#00ffff' || dayColor === '#f9a8d4' || dayColor === '#7dd3fc') ? '#000000' : '#ffffff';
+  const priceTextColor = (dayColor === '#ffffff' || dayColor === '#a8ff78' || dayColor === '#00ff41' || dayColor === '#eab308' || dayColor === '#34d399' || dayColor === '#fb923c' || dayColor === '#f59e0b' || dayColor === '#06b6d4' || dayColor === '#fbbf24' || dayColor === '#2dd4bf' || dayColor === '#10b981' || dayColor === '#38bdf8' || dayColor === '#f472b6' || dayColor === '#a8a29e' || dayColor === '#f3f4f6' || dayColor === '#e0f2fe' || dayColor === '#a3e635' || dayColor === '#e5e5e5' || dayColor === '#c084fc' || dayColor === '#22c55e' || dayColor === '#ccff00' || dayColor === '#ff8c00' || dayColor === '#ffd700' || dayColor === '#e0e0e0' || dayColor === '#bef264' || dayColor === '#f97316' || dayColor === '#facc15' || dayColor === '#6ee7b7' || dayColor === '#84cc16' || dayColor === '#00ffff' || dayColor === '#f9a8d4' || dayColor === '#7dd3fc' || dayColor === '#fde047' || dayColor === '#fb7185' || dayColor === '#22d3ee') ? '#000000' : '#ffffff';
   
   const currentLineHtml = `
     <line x1="${pad.left}" y1="${currentY}" x2="${width - pad.right}" y2="${currentY}" stroke="${dayColor}" stroke-width="1" stroke-dasharray="4,4"/>
@@ -257,8 +257,8 @@ export default async function handler(req, res) {
   const isMini = mini === 'true';
   const isFake = fake === 'true';
   
-  // Adding v8 to cache key to instantly bust the cache
-  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v8`;
+  // Adding v9 to cache key to instantly bust the cache
+  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v9`;
 
   const cached = cache.get(cacheKey);
   if (cached && Date.now() - cached.timestamp < 5 * 60 * 1000) { 
