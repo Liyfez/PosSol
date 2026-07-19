@@ -124,6 +124,48 @@ PosSol comes with 6 beautifully crafted aesthetic themes. To change the theme, j
       <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=frost" width="260">
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <b>Royal</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=royal" width="260">
+    </td>
+    <td align="center">
+      <b>Forest</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=forest" width="260">
+    </td>
+    <td align="center">
+      <b>Coffee</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=coffee" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Coral</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=coral" width="260">
+    </td>
+    <td align="center">
+      <b>Lavender</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=lavender" width="260">
+    </td>
+    <td align="center">
+      <b>Twilight</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=twilight" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Mint</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=mint" width="260">
+    </td>
+    <td align="center">
+      <b>Bubblegum</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=bubblegum" width="260">
+    </td>
+    <td align="center">
+      <b>Copperhead</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=copperhead" width="260">
+    </td>
+  </tr>
 </table>
 
 ---
