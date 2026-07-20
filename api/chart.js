@@ -193,13 +193,13 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     
     <!-- Headers -->
     <g class="shadow">
-      <text x="${pad.left}" y="${isMini ? 18 : 24}" font-size="${isMini ? 14 : 18}" font-weight="bold" fill="${colors.text}">${headerLine1}</text>
+      <text x="${pad.left}" y="${isMini ? 18 : 24}" font-size="${isMini ? 14 : 18}" font-weight="500" letter-spacing="-0.5" fill="${colors.text}">${headerLine1}</text>
       <text x="${pad.left}" y="${isMini ? 34 : 44}" font-size="${isMini ? 10 : 13}">${ohlcText}</text>
     </g>
   `;
 
   return `
-    <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif">
       <defs>
         <filter id="text-shadow" x="-20%" y="-20%" width="140%" height="140%">
           <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000000" flood-opacity="0.8"/>
@@ -266,8 +266,8 @@ export default async function handler(req, res) {
   const isMini = mini === 'true';
   const isFake = fake === 'true';
   
-  // Adding v14 to cache key to instantly bust the cache
-  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v14`;
+  // Adding v15 to cache key to instantly bust the cache
+  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v15`;
 
   const cached = cache.get(cacheKey);
   if (cached && Date.now() - cached.timestamp < 5 * 60 * 1000) { 
