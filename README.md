@@ -42,207 +42,211 @@ PosSol comes with 45 beautifully crafted aesthetic themes. To use a theme, just 
   <tr>
     <td align="center">
       <b>Dark</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=dark" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=dark" width="260">
     </td>
     <td align="center">
       <b>Monochrome</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=monochrome" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=monochrome" width="260">
     </td>
     <td align="center">
       <b>Abyss</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=abyss" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=abyss" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Evangelion</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=evangelion" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=evangelion" width="260">
     </td>
     <td align="center">
       <b>Nebula</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=nebula" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=nebula" width="260">
     </td>
     <td align="center">
       <b>Sakura</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=sakura" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=sakura" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Obsidian</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=obsidian" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=obsidian" width="260">
     </td>
     <td align="center">
       <b>Matrix</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=matrix" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=matrix" width="260">
     </td>
     <td align="center">
       <b>Midnight</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=midnight" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=midnight" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Oceanic</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=oceanic" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=oceanic" width="260">
     </td>
     <td align="center">
       <b>Cyber</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=cyber" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=cyber" width="260">
     </td>
     <td align="center">
       <b>Emerald</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=emerald" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=emerald" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Crimson</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=crimson" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=crimson" width="260">
     </td>
     <td align="center">
       <b>Velvet</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=velvet" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=velvet" width="260">
     </td>
     <td align="center">
       <b>Dune</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=dune" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=dune" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Apex</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=apex" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=apex" width="260">
     </td>
     <td align="center">
       <b>Sapphire</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=sapphire" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=sapphire" width="260">
     </td>
     <td align="center">
       <b>Frost</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=frost" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=frost" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Venom</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=2&theme=venom" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=venom" width="260">
     </td>
     <td align="center">
       <b>Forest</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=1&theme=forest" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=forest" width="260">
     </td>
     <td align="center">
       <b>Volt</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=venom" width="260">
-    </td>
-    <td align="center">
-      <b>Evangelion</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=evangelion" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=volt" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <b>Twilight</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=twilight" width="260">
+      <b>Coral</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=coral" width="260">
     </td>
     <td align="center">
+      <b>Lavender</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=lavender" width="260">
+    </td>
+    <td align="center">
+      <b>Twilight</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=twilight" width="260">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
       <b>Plasma</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=plasma" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=plasma" width="260">
     </td>
     <td align="center">
       <b>Bubblegum</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=bubblegum" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=bubblegum" width="260">
+    </td>
+    <td align="center">
+      <b>Copperhead</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=copperhead" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <b>Copperhead</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=copperhead" width="260">
-    </td>
-    <td align="center">
       <b>Ember</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=ember" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=ember" width="260">
     </td>
     <td align="center">
       <b>Solar</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=solar" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=solar" width="260">
+    </td>
+    <td align="center">
+      <b>Monsoon</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=monsoon" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <b>Monsoon</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=monsoon" width="260">
-    </td>
-    <td align="center">
       <b>Spice</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=spice" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=spice" width="260">
     </td>
     <td align="center">
       <b>Neon_city</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=neon_city" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=neon_city" width="260">
+    </td>
+    <td align="center">
+      <b>Radium</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=radium" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <b>Radium</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=radium" width="260">
-    </td>
-    <td align="center">
       <b>Onyx</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=onyx" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=onyx" width="260">
     </td>
     <td align="center">
       <b>Tokyo</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=tokyo" width="260">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <b>Glacier</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=glacier" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=tokyo" width="260">
     </td>
     <td align="center">
       <b>Blossom</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=blossom" width="260">
-    </td>
-    <td align="center">
-      <b>Matcha</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=matcha" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=blossom" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
+      <b>Matcha</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=matcha" width="260">
+    </td>
+    <td align="center">
       <b>Azure</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=azure" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=azure" width="260">
     </td>
     <td align="center">
       <b>Amethyst</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=amethyst" width="260">
-    </td>
-    <td align="center">
-      <b>Amber</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=amber" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=amethyst" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
+      <b>Amber</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=amber" width="260">
+    </td>
+    <td align="center">
       <b>Garnet</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=garnet" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=garnet" width="260">
     </td>
     <td align="center">
       <b>Teal</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=teal" width="260">
-    </td>
-    <td align="center">
-      <b>Indigo</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=indigo" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=teal" width="260">
     </td>
   </tr>
   <tr>
     <td align="center">
+      <b>Indigo</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=indigo" width="260">
+    </td>
+    <td align="center">
       <b>Mocha</b><br>
-      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=16&theme=mocha" width="260">
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=mocha" width="260">
+    </td>
+    <td align="center">
+      <b>Glacier</b><br>
+      <img src="https://pos-sol.vercel.app/api/chart?fake=true&mini=true&v=17&theme=glacier" width="260">
     </td>
   </tr>
 </table>

@@ -192,7 +192,7 @@ function generateSVG(symbol, values, metaData, periodLabel, themeName, isMini) {
     
     <!-- Headers -->
     <g class="shadow">
-      <text x="${pad.left}" y="${isMini ? 18 : 24}" font-size="${isMini ? 14 : 18}" font-weight="500" letter-spacing="-0.5"><tspan fill="#ffffff">${nameLabel}</tspan><tspan fill="${colors.text}"> · ${exchangeLabel}</tspan></text>
+      <text x="${pad.left}" y="${isMini ? 18 : 24}" font-size="${isMini ? 14 : 18}" font-weight="500" letter-spacing="-0.5"><tspan fill="#e2e8f0">${nameLabel}</tspan><tspan fill="${colors.text}"> · ${exchangeLabel}</tspan></text>
       <text x="${pad.left}" y="${isMini ? 34 : 44}" font-size="${isMini ? 10 : 13}">${ohlcText}</text>
     </g>
   `;
@@ -265,8 +265,8 @@ export default async function handler(req, res) {
   const isMini = mini === 'true';
   const isFake = fake === 'true';
   
-  // Adding v16 to cache key to instantly bust the cache
-  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v16`;
+  // Adding v17 to cache key to instantly bust the cache
+  const cacheKey = `${symbol.toUpperCase()}_${numDays}d_${theme.toLowerCase()}_mini${isMini}_fake${isFake}_v17`;
 
   const cached = cache.get(cacheKey);
   if (cached && Date.now() - cached.timestamp < 5 * 60 * 1000) { 
